@@ -1,0 +1,15 @@
+/* Header and footer css to use accross all docs */
+html,
+body {
+    height: 100%;
+}
+
+.wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 1 auto;
+}
