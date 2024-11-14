@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index Page</title>
-    <link rel="stylesheet" href="/assets/base_layout.css" />
+    <link rel="stylesheet" href="/assets/css/base_layout.css" />
     <!-- Link fontawesome icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Link bootstrap -->
@@ -18,33 +18,98 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas offcanvas-end text-bg-dark overflow-scroll" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
                     <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+                        <h4 class="offcanvas-title fw-bold" id="offcanvasDarkNavbarLabel">Main Menu</h4>
                         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
-                    <div class="offcanvas-body">
-                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Dropdown
-                                </a>
-                                <ul class="dropdown-menu dropdown-menu-dark">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-                            </li>
-                        </ul>
+                    <div class="d-flex flex-column flex-shrink-0 offcanvas-body">
+                        <div class="mb-auto">
+                            <ul class="list-unstyled">
+                                <li class="mb-1">
+                                    <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed text-white fw-bold menu-btn" data-bs-toggle="collapse" data-bs-target="#section-1" aria-expanded="false">
+                                        Section 1
+                                        <i class="fa-solid fa-caret-down ms-2"></i>
+                                    </button>
+                                    <div class="collapse" id="section-1">
+                                        <ul class="btn-toggle-nav fw-bolder ps-5">
+                                            <li><a href="#" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Index</a></li>
+                                            <li><a href="#" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content 1</a></li>
+                                            <li><a href="#" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content 2</a></li>
+                                            <li><a href="#" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content 3</a></li>
+                                            <li><a href="#" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content 4</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="mb-1">
+                                    <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed text-white fw-bold menu-btn" data-bs-toggle="collapse" data-bs-target="#section-2" aria-expanded="false">
+                                        Section 2
+                                        <i class="fa-solid fa-caret-down ms-2"></i>
+                                    </button>
+                                    <div class="collapse" id="section-2">
+                                        <ul class="btn-toggle-nav fw-bolder ps-5">
+                                            <li><a href="#" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Index</a></li>
+                                            <li><a href="#" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content 1</a></li>
+                                            <li><a href="#" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content 2</a></li>
+                                            <li><a href="#" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content 3</a></li>
+                                            <li><a href="#" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content 4</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="mb-1">
+                                    <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed text-white fw-bold menu-btn" data-bs-toggle="collapse" data-bs-target="#section-3" aria-expanded="false">
+                                        Section 3
+                                        <i class="fa-solid fa-caret-down ms-2"></i>
+                                    </button>
+                                    <div class="collapse" id="section-3">
+                                        <ul class="btn-toggle-nav fw-bolder ps-5">
+                                            <li><a href="#" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Index</a></li>
+                                            <li><a href="#" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content 1</a></li>
+                                            <li><a href="#" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content 2</a></li>
+                                            <li><a href="#" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content 3</a></li>
+                                            <li><a href="#" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content 4</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="mb-1">
+                                    <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed text-white fw-bold menu-btn" data-bs-toggle="collapse" data-bs-target="#section-4" aria-expanded="false">
+                                        Section 4
+                                        <i class="fa-solid fa-caret-down ms-2"></i>
+                                    </button>
+                                    <div class="collapse" id="section-4">
+                                        <ul class="btn-toggle-nav fw-bolder ps-5">
+                                            <li><a href="#" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Index</a></li>
+                                            <li><a href="#" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content 1</a></li>
+                                            <li><a href="#" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content 2</a></li>
+                                            <li><a href="#" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content 3</a></li>
+                                            <li><a href="#" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content 4</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="mb-1">
+                                    <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed text-white fw-bold menu-btn" data-bs-toggle="collapse" data-bs-target="#section-5" aria-expanded="false">
+                                        Section 5
+                                        <i class="fa-solid fa-caret-down ms-2"></i>
+                                    </button>
+                                    <div class="collapse" id="section-5">
+                                        <ul class="btn-toggle-nav fw-bolder ps-5">
+                                            <li><a href="#" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Index</a></li>
+                                            <li><a href="#" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content 1</a></li>
+                                            <li><a href="#" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content 2</a></li>
+                                            <li><a href="#" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content 3</a></li>
+                                            <li><a href="#" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content 4</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                            <hr>
+                            <a href="#" class="text-decoration-none fw-bold text-white ps-2 menu-btn">Go Home <i class="fa-solid fa-house"></i></a>
+                        </div>
+                        <hr>
+                        <a href="#" class="btn btn-outline-info" role="button">
+                            <i class="fa-solid fa-file-signature"></i>
+                            Contact Us
+                        </a>
                     </div>
                 </div>
             </div>
