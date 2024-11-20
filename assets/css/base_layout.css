@@ -42,3 +42,17 @@ main {
         left: 0;
     }
 }
+
+.footer-logo {
+    width: 2rem;
+}
+
+.credits {
+    list-style-type: disc !important;
+}
+
+@media screen and (max-width: 1250px) {
+    footer {
+        flex-direction: column;
+    }
+}
