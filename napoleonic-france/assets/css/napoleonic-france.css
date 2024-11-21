@@ -2,10 +2,15 @@
 .section-info img {
     width:100%;
     border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.banner-container {
+    height: 500px;
 }
 
 .banner {
-    background-image: url('../images/example.jpg');
+    background-image: url('../images/first-french-empire.png');
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
