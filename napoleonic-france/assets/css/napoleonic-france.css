@@ -3,3 +3,11 @@
     width:100%;
     border-radius: 5px;
 }
+
+.banner {
+    background-image: url('../images/example.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
