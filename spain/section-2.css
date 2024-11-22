@@ -10,7 +10,7 @@
 }
 
 a .img-fluid {
-    height: 500px;
+    max-height: 400px;
     width: 100%;
     opacity: 1;
     transition: 0.15s;
