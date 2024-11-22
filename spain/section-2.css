@@ -4,19 +4,6 @@
     height: 700px;
 }
 
-.header {
-    background-image: url('https://whythisplace.com/wp-content/uploads/2022/10/The-Royal-Palace-of-Madrid-jpg.webp');
-    background-size: cover;
-}
-
-a .img-fluid {
+.card .img-fluid {
     max-height: 400px;
-    width: 100%;
-    opacity: 1;
-    transition: 0.15s;
-}
-
-a img:hover {
-    opacity: 0.8;
-    transition: 0.15s;
 }
