@@ -1,0 +1,18 @@
+/* CSS for this section only */
+.section-info img {
+    width:100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.banner-container {
+    height: 500px;
+}
+
+.banner {
+    background-image: url('../images/map-of-europe-1812.jpeg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
