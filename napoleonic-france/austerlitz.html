@@ -1,12 +1,292 @@
-<!-- Content page -->
- <!DOCTYPE html>
- <html lang="en">
- <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
- </head>
- <body>
-    
- </body>
- </html>
+<!-- Content Page -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <link href="./assets/css/napoleonic-france.css" rel="stylesheet">
+   <link href="../assets/css/base_layout.css" rel="stylesheet">
+   <link href="./assets/images/favicon.ico" rel="icon">
+
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
+
+   <title>Napoleonic France - Austerlitz</title>
+</head>
+
+<body>
+   <div class="wrapper">
+      <header class="navbar navbar-dark bg-dark fixed-top shadow-lg">
+         <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="/index.html">Historical Site</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+               data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark overflow-scroll" tabindex="-1" id="offcanvasDarkNavbar"
+               aria-labelledby="offcanvasDarkNavbarLabel">
+               <div class="offcanvas-header">
+                  <h4 class="offcanvas-title fw-bold" id="offcanvasDarkNavbarLabel">Main Menu</h4>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                     aria-label="Close"></button>
+               </div>
+               <div class="d-flex flex-column flex-shrink-0 offcanvas-body">
+                  <div class="mb-auto">
+                     <ul class="list-unstyled">
+                        <li class="mb-1">
+                           <button
+                              class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed text-white fw-bold menu-btn"
+                              data-bs-toggle="collapse" data-bs-target="#section-1" aria-expanded="false">
+                              Napoleonic France
+                              <i class="fa-solid fa-caret-down ms-2"></i>
+                           </button>
+                           <div class="collapse" id="section-1">
+                              <ul class="btn-toggle-nav fw-bolder ps-5">
+                                 <li><a href="/napoleonic-france/index.html"
+                                       class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Index</a>
+                                 </li>
+                                 <li><a href="/napoleonic-france/austerlitz.html"
+                                       class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Austerlitz</a>
+                                 </li>
+                                 <li><a href="/napoleonic-france/borodino.html"
+                                       class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Borodino</a>
+                                 </li>
+                                 <li><a href="/napoleonic-france/leipzig.html"
+                                       class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Leipzig</a>
+                                 </li>
+                                 <li><a href="/napoleonic-france/marengo.html"
+                                       class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Marengo</a>
+                                 </li>
+                              </ul>
+                           </div>
+                        </li>
+                        <li class="mb-1">
+                           <button
+                              class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed text-white fw-bold menu-btn"
+                              data-bs-toggle="collapse" data-bs-target="#section-2" aria-expanded="false">
+                              Section 2
+                              <i class="fa-solid fa-caret-down ms-2"></i>
+                           </button>
+                           <div class="collapse" id="section-2">
+                              <ul class="btn-toggle-nav fw-bolder ps-5">
+                                 <li><a href="/section-2/index.html"
+                                       class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Index</a>
+                                 </li>
+                                 <li><a href="/section-2/content-1.html"
+                                       class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content
+                                       1</a></li>
+                                 <li><a href="/section-2/content-2.html"
+                                       class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content
+                                       2</a></li>
+                                 <li><a href="/section-2/content-3.html"
+                                       class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content
+                                       3</a></li>
+                                 <li><a href="/section-2/content-4.html"
+                                       class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content
+                                       4</a></li>
+                              </ul>
+                           </div>
+                        </li>
+                        <li class="mb-1">
+                           <button
+                              class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed text-white fw-bold menu-btn"
+                              data-bs-toggle="collapse" data-bs-target="#section-3" aria-expanded="false">
+                              Section 3
+                              <i class="fa-solid fa-caret-down ms-2"></i>
+                           </button>
+                           <div class="collapse" id="section-3">
+                              <ul class="btn-toggle-nav fw-bolder ps-5">
+                                 <li><a href="/section-3/index.html"
+                                       class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Index</a>
+                                 </li>
+                                 <li><a href="/section-3/content-1.html"
+                                       class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content
+                                       1</a></li>
+                                 <li><a href="/section-3/content-2.html"
+                                       class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content
+                                       2</a></li>
+                                 <li><a href="/section-3/content-3.html"
+                                       class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content
+                                       3</a></li>
+                                 <li><a href="/section-3/content-4.html"
+                                       class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content
+                                       4</a></li>
+                              </ul>
+                           </div>
+                        </li>
+                        <li class="mb-1">
+                           <button
+                              class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed text-white fw-bold menu-btn"
+                              data-bs-toggle="collapse" data-bs-target="#section-4" aria-expanded="false">
+                              Section 4
+                              <i class="fa-solid fa-caret-down ms-2"></i>
+                           </button>
+                           <div class="collapse" id="section-4">
+                              <ul class="btn-toggle-nav fw-bolder ps-5">
+                                 <li><a href="/section-4/index.html"
+                                       class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Index</a>
+                                 </li>
+                                 <li><a href="/section-4/content-1.html"
+                                       class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content
+                                       1</a></li>
+                                 <li><a href="/section-4/content-2.html"
+                                       class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content
+                                       2</a></li>
+                                 <li><a href="/section-4/content-3.html"
+                                       class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content
+                                       3</a></li>
+                                 <li><a href="/section-4/content-4.html"
+                                       class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content
+                                       4</a></li>
+                              </ul>
+                           </div>
+                        </li>
+                        <li class="mb-1">
+                           <button
+                              class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed text-white fw-bold menu-btn"
+                              data-bs-toggle="collapse" data-bs-target="#section-5" aria-expanded="false">
+                              Section 5
+                              <i class="fa-solid fa-caret-down ms-2"></i>
+                           </button>
+                           <div class="collapse" id="section-5">
+                              <ul class="btn-toggle-nav fw-bolder ps-5">
+                                 <li><a href="/section-5/index.html"
+                                       class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Index</a>
+                                 </li>
+                                 <li><a href="/section-5/content-1.html"
+                                       class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content
+                                       1</a></li>
+                                 <li><a href="/section-5/content-2.html"
+                                       class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content
+                                       2</a></li>
+                                 <li><a href="/section-5/content-3.html"
+                                       class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content
+                                       3</a></li>
+                                 <li><a href="/section-5/content-4.html"
+                                       class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content
+                                       4</a></li>
+                              </ul>
+                           </div>
+                        </li>
+                     </ul>
+                     <hr>
+                     <a href="/index.html" class="text-decoration-none fw-bold text-white ps-2 menu-btn">Home
+                        Page <i class="fa-solid fa-house"></i></a>
+                  </div>
+                  <hr>
+                  <a href="/contact.html" class="btn btn-outline-info" role="button">
+                     <i class="fa-solid fa-file-signature"></i>
+                     Contact Us
+                  </a>
+               </div>
+            </div>
+         </div>
+      </header>
+      <main class="mt-5">
+         <div class="banner-container">
+            <div class="banner"></div>
+         </div>
+         <section class="container">
+            <section class="container text-center py-5">
+               <h1 class="fst-italic">The Battle of Austerlitz</h1>
+               <hr>
+            </section>
+            <div class="row mt-2">
+               <div class="col-md-4 p-2 mb-2">
+                  <figure class="figure">
+                     <img src="./assets/images/napoleons-coronation.jpg" class="figure-img img-fluid rounded"
+                        alt="Napoleon's coronation">
+                     <figcaption class="figure-caption">Painting of the coronation of Napoleon Bonaparte.</figcaption>
+                  </figure>
+               </div>
+               <div class="col-md-8 p-4 mb-4">
+                  <div class="container">
+                     <h4>Preceding Events</h4>
+                     <p>
+                        The Battle of Austerlitz, fought on December 2, 1805, was preceded by a series of dramatic
+                        events during the War of the Third Coalition. Napoleon Bonaparte, having declared himself
+                        Emperor of France, faced a coalition led by Austria, Russia, and Britain, determined to curtail
+                        his growing power. Tensions escalated when Austria invaded Bavaria, a French ally, prompting
+                        Napoleon to launch his Grande Armée eastward in a rapid campaign known as the Ulm Campaign.
+                        There, he decisively defeated Austrian forces at Ulm in October, capturing thousands of troops.
+                        Meanwhile, Russian forces under Tsar Alexander I joined the Austrians, rallying near Brno
+                        (modern-day Czech Republic). Napoleon, feigning weakness, lured the Allies into a vulnerable
+                        position near the village of Austerlitz, setting the stage for one of his most famous victories.
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="row mt-2">
+               <div class="col-md-8 p-4 mb-4">
+                  <div class="container">
+                     <h4>The Battle</h4>
+                     <p>
+                        The Battle of Austerlitz, also known as the Battle of the Three Emperors is considered Napoleon
+                        Bonaparte's greatest military triumph. Facing the combined
+                        forces of Tsar Alexander I of Russia and Holy Roman Emperor Francis II of Austria, Napoleon
+                        executed a brilliant strategic deception. He feigned weakness, enticing the Allies to attack his
+                        right flank. As they moved into this trap, Napoleon launched a decisive counterattack, splitting
+                        their forces and destroying their center. By the end of the day, the Allies suffered a crushing
+                        defeat, losing tens of thousands of men while Napoleon secured a stunning victory. This outcome
+                        forced Austria to sue for peace, leading to the Treaty of Pressburg, dissolved the Holy Roman
+                        Empire, and solidified Napoleon's dominance in Europe.
+                     </p>
+                  </div>
+               </div>
+               <div class="col-md-4 p-2 mb-2">
+                  <figure class="figure">
+                     <img src="./assets/images/austerlitz-banner.jpg" class="figure-img img-fluid rounded"
+                        alt="Painting of battlefield">
+                     <figcaption class="figure-caption text-end">Painting of the battle of Austerlitz.</figcaption>
+                  </figure>
+               </div>
+            </div>
+            <div class="row mt-2">
+               <div class="col-md-4 p-2 mb-2">
+                  <figure class="figure">
+                     <img src="./assets/images/austerlitz-modern-day.jpg" class="figure-img img-fluid rounded"
+                        alt="Reenactment of battlefield">
+                     <figcaption class="figure-caption">Reenactment of the battle of Austerlitz.</figcaption>
+                  </figure>
+               </div>
+               <div class="col-md-8 p-4 mb-4">
+                  <div class="container">
+                     <h4>Modern-day Site</h4>
+                     <p>
+                        The site of the Battle of Austerlitz, near the town of Slavkov u Brna in the Czech Republic, is
+                        a well-preserved historical landmark and a popular destination for history enthusiasts. The area
+                        features several monuments and memorials, most notably the Peace Monument, built in 1912 to
+                        commemorate those who fell during the battle. The surrounding fields, rolling hills, and nearby
+                        villages retain much of their 19th-century landscape, offering visitors a vivid sense of the
+                        battlefield's geography. The town of Slavkov u Brna itself houses a museum dedicated to the
+                        battle in the historic Slavkov Castle. Annual reenactments and commemorative events attract
+                        international visitors, keeping the memory of Napoleon's triumph and the site's historical
+                        significance alive.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </main>
+      <footer class="d-flex flex-wrap justify-content-between align-items-center p-3 mt-5 border-top">
+         <div class="d-flex align-items-center">
+            <img class="footer-logo" src="../assets/images/favicon.ico" alt="Site logo">
+            <span class="mb-3 mb-md-0 text-body-secondary">&copy; 2024 Historical Site</span>
+         </div>
+         <ul class="nav d-flex justify-content-center credits">
+            <li class="ms-5">Illia Balan</li>
+            <li class="ms-5">Yaroslav Hrabovets</li>
+            <li class="ms-5">Liam Kelly</li>
+            <li class="ms-5">Sean O Grady</li>
+            <li class="ms-5">Bhavya Pandey</li>
+            <li class="ms-5">Pavel Soshenko Gnezdilov</li>
+         </ul>
+      </footer>
+</body>
+
+</html>
