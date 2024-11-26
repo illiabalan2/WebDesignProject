@@ -1,0 +1,39 @@
+/* CSS for this section only */
+
+.navbar-c {
+    position: sticky;
+    top: 100px;
+}
+
+.carousel-item img {
+    height: 85vh;
+}
+
+@media (max-aspect-ratio: 1/1) {
+    .carousel-item img {
+        height: calc(100vw - 30vh);
+    }
+}
+
+@media (max-aspect-ratio: 9/16) {
+    .carousel-item img {
+        height: calc(100vw - 20vh);
+    }
+}
+
+.nav-link.active {
+    background-color: var(--bs-secondary) !important;
+}
+/*.nav-link:hover {*/
+/*    background-color: var(--bs-gray-300);*/
+/*}*/
+/*body {*/
+/*    position: relative;*/
+/*}*/
+/*body {*/
+/*    overflow: hidden;*/
+/*}*/
+
+/*body .col-8 {*/
+/*    overflow-y: visible;*/
+/*}*/
