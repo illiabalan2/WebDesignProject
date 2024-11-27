@@ -1,12 +1,264 @@
-<!-- Content page -->
- <!DOCTYPE html>
- <html lang="en">
- <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
- </head>
- <body>
-    
- </body>
- </html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <link href="styles.css" rel="stylesheet">
+   <link href="base_layout.css" rel="stylesheet">
+   <link href="images/favicon.ico.png" rel="icon">
+
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
+
+   <title>The Pyramids and Monuments of Egypt</title>
+</head>
+
+<body>
+   <div class="wrapper">
+      <header class="navbar navbar-dark bg-dark fixed-top shadow-lg">
+         <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="/index.html">Historical Site</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+               data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark overflow-scroll" tabindex="-1" id="offcanvasDarkNavbar"
+               aria-labelledby="offcanvasDarkNavbarLabel">
+               <div class="offcanvas-header">
+                  <h4 class="offcanvas-title fw-bold" id="offcanvasDarkNavbarLabel">Main Menu</h4>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                     aria-label="Close"></button>
+               </div>
+               <div class="d-flex flex-column flex-shrink-0 offcanvas-body">
+                  <div class="mb-auto">
+                     <ul class="list-unstyled">
+                        <li class="mb-1">
+                           <button
+                              class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed text-white fw-bold menu-btn"
+                              data-bs-toggle="collapse" data-bs-target="#section-1" aria-expanded="false">
+                              Napoleonic France
+                              <i class="fa-solid fa-caret-down ms-2"></i>
+                           </button>
+                           <div class="collapse" id="section-1">
+                              <ul class="btn-toggle-nav fw-bolder ps-5">
+                                 <li><a href="/napoleonic-france/index.html"
+                                       class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Index</a>
+                                 </li>
+                                 <li><a href="/napoleonic-france/austerlitz.html"
+                                       class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Austerlitz</a>
+                                 </li>
+                                 <li><a href="/napoleonic-france/borodino.html"
+                                       class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Borodino</a>
+                                 </li>
+                                 <li><a href="/napoleonic-france/leipzig.html"
+                                       class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Leipzig</a>
+                                 </li>
+                                 <li><a href="/napoleonic-france/marengo.html"
+                                       class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Marengo</a>
+                                 </li>
+                              </ul>
+                           </div>
+                        </li>
+                        <li class="mb-1">
+                           <button
+                              class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed text-white fw-bold menu-btn"
+                              data-bs-toggle="collapse" data-bs-target="#section-2" aria-expanded="false">
+                              Section 2
+                              <i class="fa-solid fa-caret-down ms-2"></i>
+                           </button>
+                           <div class="collapse" id="section-2">
+                              <ul class="btn-toggle-nav fw-bolder ps-5">
+                                 <li><a href="/section-2/index.html"
+                                       class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Index</a>
+                                 </li>
+                                 <li><a href="/section-2/content-1.html"
+                                       class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content
+                                       1</a></li>
+                                 <li><a href="/section-2/content-2.html"
+                                       class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content
+                                       2</a></li>
+                                 <li><a href="/section-2/content-3.html"
+                                       class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content
+                                       3</a></li>
+                                 <li><a href="/section-2/content-4.html"
+                                       class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content
+                                       4</a></li>
+                              </ul>
+                           </div>
+                        </li>
+                        <li class="mb-1">
+                           <button
+                              class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed text-white fw-bold menu-btn"
+                              data-bs-toggle="collapse" data-bs-target="#section-3" aria-expanded="false">
+                              Section 3
+                              <i class="fa-solid fa-caret-down ms-2"></i>
+                           </button>
+                           <div class="collapse" id="section-3">
+                              <ul class="btn-toggle-nav fw-bolder ps-5">
+                                 <li><a href="/section-3/index.html"
+                                       class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Index</a>
+                                 </li>
+                                 <li><a href="/section-3/content-1.html"
+                                       class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content
+                                       1</a></li>
+                                 <li><a href="/section-3/content-2.html"
+                                       class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content
+                                       2</a></li>
+                                 <li><a href="/section-3/content-3.html"
+                                       class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content
+                                       3</a></li>
+                                 <li><a href="/section-3/content-4.html"
+                                       class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content
+                                       4</a></li>
+                              </ul>
+                           </div>
+                        </li>
+                        <li class="mb-1">
+                           <button
+                              class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed text-white fw-bold menu-btn"
+                              data-bs-toggle="collapse" data-bs-target="#section-4" aria-expanded="false">
+                              Section 4
+                              <i class="fa-solid fa-caret-down ms-2"></i>
+                           </button>
+                           <div class="collapse" id="section-4">
+                              <ul class="btn-toggle-nav fw-bolder ps-5">
+                                 <li><a href="/section-4/index.html"
+                                       class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Index</a>
+                                 </li>
+                                 <li><a href="/section-4/content-1.html"
+                                       class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content
+                                       1</a></li>
+                                 <li><a href="/section-4/content-2.html"
+                                       class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content
+                                       2</a></li>
+                                 <li><a href="/section-4/content-3.html"
+                                       class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content
+                                       3</a></li>
+                                 <li><a href="/section-4/content-4.html"
+                                       class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content
+                                       4</a></li>
+                              </ul>
+                           </div>
+                        </li>
+                        <li class="mb-1">
+                           <button
+                              class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed text-white fw-bold menu-btn"
+                              data-bs-toggle="collapse" data-bs-target="#section-5" aria-expanded="false">
+                              History of Egypt
+                                <i class="fa-solid fa-caret-down ms-2"></i>
+                             </button>
+                             <div class="collapse" id="section-5">
+                                <ul class="btn-toggle-nav fw-bolder ps-5">
+                                   <li><a href="index.html"
+                                         class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Index</a>
+                                   </li>
+                                   <li><a href="/section-5/History-of-egypt.html"
+                                         class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">History Of Egypt
+                                         </a></li>
+                                   <li><a href="/section-5/Monuments.html"
+                                         class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Monuments
+                                         </a></li>
+                                   <li><a href="/section-5/Ancient-Egypt.html"
+                                         class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Ancient Egypt
+                                         </a></li>
+                                   <li><a href="/section-5/Famous-pharaohs.html"
+                                         class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Famous
+                                         </a></li>
+                              </ul>
+                           </div>
+                        </li>
+                     </ul>
+                     <hr>
+                     <a href="/index.html" class="text-decoration-none fw-bold text-white ps-2 menu-btn">Home Page <i
+                           class="fa-solid fa-house"></i></a>
+                  </div>
+                  <hr>
+                  <a href="/contact.html" class="btn btn-outline-info" role="button">
+                     <i class="fa-solid fa-file-signature"></i> Contact Us
+                  </a>
+               </div>
+            </div>
+         </div>
+      </header>
+
+      <main class="mt-5">
+         <section class="container">
+            <section class="container text-center py-5">
+               <h1 class="fst-italic">The Pyramids and Monuments of Egypt</h1>
+               <hr>
+            </section>
+
+            <!-- Content with Right-Aligned Images -->
+            <div class="row mt-2 text-center">
+               <div class="col-12  text-center">
+                  <h4>The Great Pyramids of Giza</h4>
+                  <p>It is also known as the <b>Pyramid of Khufu</b> . It is the largest pyramid out of the three that are present at the Giza plateau. It was contructed by the <b>Fourth Dynasty</b> at around <b>2580–2560 BCE</b>. The pyramid was built as a tomb for <b>Pharaoh Khufu</b></p>
+                  <p><b>Key facts</b></p>
+                  <p>The Great Pyramid stands at 146.6 meters (481 feet) tall and it was the tasllest man-made structure for 3,800 years. It has been constructed using 2.3 million limestone blocks, with each block weighing at about 2.5 to 15 tons each and each of these blocks has been placed with great precision.</p>
+                  <p><b>Construction Theories:</b></p>
+                  <p> There are a lot of theories on the construction of such a wonder. Ramps of various different types like straight or spiral were used to transport each limestone block. The contrusction is said to have required a massive workforce of 20,000 to 30,000 laborers who worked in shifts. The alignment of the pyramid has been done with the help of cardinal directions and the precise dimensions sugggest that some kind of an advanced tool may have been used for the purpose of measurements.  </p>
+               </div>
+               <div class="col-12 text-center">
+                  <figure class="figure">
+                     <img src="./assets/images/pyramidofgiza-sec3.jpg" class="figure-img img-fluid rounded d-block float-end"
+                        alt="Pyramid of Giza">
+                     <figcaption class="figure-caption">Pyramid of Giza.</figcaption>
+                  </figure>
+               </div>
+            </div>
+
+            <div class="row mt-2 text-center">
+               <div class="col-12 text-center">
+                  <h3>The valley of the Kings</h3>
+                  <p>It is one of the most famous archeological sites of Egypt , located by the west of the river Nile near the city Luxor. It is the burial site for Egypts pharaohs, queens, nobles from the 18th to the 20th Dynasty. The tombs present are in the shape of cliffs. Some of the notable tombs in the valley of kings are the Tomb of Tutankhamun, Tomb of Ramses II,Tomb of Seti I . The tombs were designed is such a way as to elude robbers, It has narrow passageways and hidden entrances. </p>
+               </div>
+               <div class="col-12  text-center">
+                  <figure class="figure">
+                     <img src="./assets/images/Valley-sec3.jpg" class="figure-img img-fluid rounded mx-auto d-block"
+                        alt="valley of the kings">
+                     <figcaption class="figure-caption text-end">Valley of the Kings</figcaption>
+                  </figure>
+               </div>
+            </div>
+
+            <div class="row mt-2 text-center">
+               <div class="col-12  text-center">
+                  <h3>The Temples of Karnak and Luxor</h3>
+                  <p>The Karnak Temple Complex is a vast open-air museum and one of the largest ancient religious sites in the world. The Luxor Temple stands as an incredible monument to Egypt’s pharaohs. <b> The Karnak Temple Complex </b>is a complex comprising of buildings that were dedicated to Amun, Mut who was his wife and the son Khonsu.The construction had begun  around 2000 BCE but the rest of the bulk structures were built during the <b> New Kingdom(c. 1550–1070 BCE)</b> under the pharaohs <b>Seti I and Ramses II.</b></p>
+                  <p>It has a Great Hypostyle Hall: This is perhaps the most famous part of Karnak which is a hall covering a distance of 50,000 sq feet, in an area with 134 columns. </p>
+                  <p>The Karnak Temple also has the Obelisk of Hatsheput and the Colossi of Memnon which are the statues of pharaohs.</p>
+                  <p>The Temple of Luxor is dedicated to a group of gods, but it was dedicated to the <b>Theban Triad</b> but it was specifically dedicated to Amun-Ra, who was the king of the gods and also associated with the pharaohs that ruled over egypt.</p>
+               <div class="col-12 text-center">
+                  <figure class="figure">
+                     <img src="./assets/images/Temple-sec3.jpg" class="figure-img img-fluid rounded mx-auto d-block"
+                        alt="Temple of Karnak">
+                     <figcaption class="figure-caption">Temple of Karnak and Luxor</figcaption>
+                  </figure>
+               </div>
+            </div>
+         </section>
+      </main>
+
+      <footer class="d-flex flex-wrap justify-content-between align-items-center p-3 mt-5 border-top">
+         <div class="d-flex align-items-center">
+            <img class="footer-logo" src="../assets/images/favicon.ico.png" alt="Site logo">
+            <span class="mb-3 mb-md-0 text-body-secondary">&copy; 2024 Historical Site</span>
+         </div>
+         <ul class="nav d-flex justify-content-center credits">
+            <li class="ms-5">Illia Balan</li>
+            <li class="ms-5">Yaroslav Hrabovets</li>
+            <li class="ms-5">Liam Kelly</li>
+            <li class="ms-5">Sean O Grady</li>
+            <li class="ms-5">Bhavya Pandey</li>
+            <li class="ms-5">Pavel Soshenko Gnezdilov</li>
+         </ul>
+      </footer>
+   </div>
+</body>
+
+</html>
