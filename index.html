@@ -4,23 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ukraine</title>
-    <link rel="stylesheet" href="/assets/base_layout.css" />
+    <link rel="stylesheet" href="/assets/css/base_layout.css" />
     <!-- Link fontawesome icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Link bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="wrapper">
         <header class="navbar navbar-dark bg-dark fixed-top">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Offcanvas dark navbar</a>
+                <a class="navbar-brand" href="#">Page navbar</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
                     <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Page navbar</h5>
                         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
                     <div class="offcanvas-body">
@@ -28,29 +29,172 @@
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
-                            </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Dropdown
+                                    Sections
                                 </a>
                                 <ul class="dropdown-menu dropdown-menu-dark">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li>
+                                    <li><a class="dropdown-item" href="#">Ukraine in Ancient Times</a></li>
+                                    <li><a class="dropdown-item" href="#">Ukraine in </a></li>
+                                    <li><a class="dropdown-item" href="#">Section 3</a></li>
+                                    <li><a class="dropdown-item" href="#">Section 4</a></li>
+                                    <li><a class="dropdown-item" href="#">Section 5</a></li>
+                                    <!-- <li>
                                         <hr class="dropdown-divider">
                                     </li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    <li><a class="dropdown-item" href="#">Contact</a></li> -->
                                 </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Contact</a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
         </header>
-        <main>
+        <main class="mt-5">
             <!-- Main content -->
+            <h1>Ukraine</h1>
+            <!-- <div class="banner-container">
+                <img class="banner-picture" src="assets/images/test3.jpg" alt="Banner Image">
+            </div> -->
+            <p>Nestled in the heart of Eastern Europe, Ukraine is a land steeped in history, cultural richness, and natural beauty. With its fertile plains, known as the "breadbasket of Europe," Ukraine has long been a vital crossroads of civilizations, fostering a diverse heritage shaped by centuries of migration, conquest, and resilience.               The history of Ukraine dates back thousands of years to the early Slavic tribes and the sophisticated culture of the Trypillians. It later became the cradle of Kyivan Rus', a powerful medieval state and the forerunner of modern Eastern Slavic nations. Through the ages, Ukraine has witnessed the rise and fall of empires, from the Golden Horde to the Polish-Lithuanian Commonwealth and the Austro-Hungarian Empire.
+                
+                A pivotal chapter in Ukrainian history unfolded in the 20th century, marked by its struggle for independence and resilience through events like the Holodomor, World War II, and the eventual dissolution of the Soviet Union in 1991. Since gaining independence, Ukraine has embraced its cultural identity and fought to maintain its sovereignty, even in the face of modern geopolitical challenges.
+                
+                Today, Ukraine stands as a vibrant nation, celebrated for its rich traditions, historic landmarks, and artistic achievements. From the golden domes of Kyiv to the timeless Carpathian Mountains and the cultural tapestry of cities like Lviv and Odesa, Ukraine offers a window into a past filled with triumphs and trials.
+                
+                Explore the history of Ukraine and uncover the stories that have shaped its enduring spirit and remarkable journey through time.</p>
+            
+            <div class="card-container">
+                <div class="card">
+                    <img class="img-fluid card-img-top"
+                         src="/assets/images/trypillians.jpg"
+                         alt="Picture of Trypillian People"/>
+                    <div class="card-body p-0">
+                        <h3 class="card-header p-3">Ukraine in Ancient Times</h3>
+                        <div class="accordion" id="TrypilliansDescription">
+                            <div class="accordion-item rounded-0 border-0 border-bottom">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed rounded-0" type="button" data-bs-toggle="collapse" data-bs-target="#SagradaOne" aria-expanded="false" aria-controls="SagradaOne">
+                                        Short Description
+                                    </button>
+                                </h2>
+                                <div id="TrypilliansOne" class="accordion-collapse collapse" data-bs-parent="#TrypilliansDescription">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Text</p>
+                        <a href="section-1/trypillians.html" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="img-fluid card-img-top"
+                        src="/assets/images/christianisation.jpg"
+                        alt=""/>
+                    <div class="card-body p-0">
+                        <h3 class="card-header p-3">Kyivan Rus'</h3>
+                        <div class="accordion" id="KyivanRusDescription">
+                            <div class="accordion-item rounded-0 border-0 border-bottom">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed rounded-0" type="button" data-bs-toggle="collapse" data-bs-target="#SagradaOne" aria-expanded="false" aria-controls="SagradaOne">
+                                        Short Description
+                                    </button>
+                                </h2>
+                                <div id="SagradaOne" class="accordion-collapse collapse" data-bs-parent="#SagradaDescription">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Text</p>
+                        <a href="section-2/index.html" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="img-fluid card-img-top"
+                        src="/assets/images/cossacks.jpg"
+                        alt=""/>
+                    <div class="card-body p-0">
+                        <h3 class="card-header p-3">Hetmanate and Cossack Period</h3>
+                        <div class="accordion" id="CossacksDescription">
+                            <div class="accordion-item rounded-0 border-0 border-bottom">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed rounded-0" type="button" data-bs-toggle="collapse" data-bs-target="#SagradaOne" aria-expanded="false" aria-controls="SagradaOne">
+                                        Short Description
+                                    </button>
+                                </h2>
+                                <div id="SagradaOne" class="accordion-collapse collapse" data-bs-parent="#SagradaDescription">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Text</p>
+                        <a href="section-3/index.html" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="img-fluid card-img-top"
+                        src="/assets/images/dyrektoriya.jpg"
+                        alt=""/>
+                    <div class="card-body p-0">
+                        <h3 class="card-header p-3">Struggles in Russian Empire and USSR</h3>
+                        <div class="accordion" id="CossacksDescription">
+                            <div class="accordion-item rounded-0 border-0 border-bottom">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed rounded-0" type="button" data-bs-toggle="collapse" data-bs-target="#SagradaOne" aria-expanded="false" aria-controls="SagradaOne">
+                                        Short Description
+                                    </button>
+                                </h2>
+                                <div id="SagradaOne" class="accordion-collapse collapse" data-bs-parent="#SagradaDescription">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Text</p>
+                        <a href="section-4/index.html" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="img-fluid card-img-top"
+                        src="/assets/images/today.jpg"
+                        alt=""/>
+                    <div class="card-body p-0">
+                        <h3 class="card-header p-3">Ukraine Today</h3>
+                        <div class="accordion" id="SagradaDescription">
+                            <div class="accordion-item rounded-0 border-0 border-bottom">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed rounded-0" type="button" data-bs-toggle="collapse" data-bs-target="#SagradaOne" aria-expanded="false" aria-controls="SagradaOne">
+                                        Short Description
+                                    </button>
+                                </h2>
+                                <div id="SagradaOne" class="accordion-collapse collapse" data-bs-parent="#SagradaDescription">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Text</p>
+                        <a href="section-5/index.html" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
         </main>
         <footer class="d-flex flex-wrap justify-content-between align-items-center p-3 mt-5 border-top">
             <div class="col-md-4 d-flex align-items-center">
