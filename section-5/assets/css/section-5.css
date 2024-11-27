@@ -1,1 +1,425 @@
-/* CSS for this section only /*
+/* CSS for this section only */
+.content {
+    
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  
+  /* Content Box */
+  .content-box {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+   
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: none;
+    box-sizing: border-box;
+  }
+  /* CSS-Only Dropdown List */
+  .collapse-checkbox {
+    display: none; 
+  }
+  
+  .collapse-label {
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin: 5px;
+    display: block;
+    padding: 10px;
+    background-color: #aeaeae; 
+    border: 1px solid #afadad;
+    border-radius: 5px;
+  }
+  
+  .collapse-label:hover {
+    background-color: #959595; 
+  }
+  
+  .collapse-content {
+    padding: 10px;
+    background-color: #eeeeee; 
+    border-radius: 5px;
+    margin-top: 5px;
+    display: none; 
+    transition: all 0.3s ease;
+  }
+  
+  /* Show content when checkbox is checked */
+  .collapse-checkbox:checked + .collapse-label + .collapse-content {
+    display: block; 
+  }
+  
+  /* Additional List Styles for Collapsible Dropdowns */
+  .content ul {
+    padding-left: 20px;
+    margin-left: 0;
+    text-align: left;
+  }
+  
+  .content li {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 10px;
+  }
+/* Make images smaller and rounded */
+.image-gallery .image-item img {
+    width: 200px; 
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 50%; 
+    transition: transform 0.3s ease; 
+  }
+  
+  .image-gallery .image-item img:hover {
+    transform: scale(1.1);
+  }
+  /* Styling for the image gallery container */
+  .image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+    justify-content: center; 
+  }
+  
+  
+  .image-item {
+    width: calc(50% - 10px); 
+    text-align: center;
+  }
+  
+  .image-item img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 10px; 
+  }
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ 
+ body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+ }
+ 
+ h1, h2, h3, h4, h5, h6 {
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+    color: #2c3e50;
+ }
+ main {
+   padding-top: 70px; 
+ }
+ 
+ /* Navbar Styles */
+ .navbar {
+
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+ }
+ 
+ .navbar-brand {
+    color: #ecf0f1;
+    font-size: 24px;
+    letter-spacing: 1px;
+ }
+ 
+ .navbar-toggler-icon {
+    background-color: #ecf0f1;
+ }
+ 
+ .offcanvas-header {
+    background-color: #cddae8;
+    color: #ecf0f1;
+ }
+ 
+ .offcanvas-body {
+    background-color: #b8cbde;
+ }
+ 
+ .menu-btn {
+    background-color: transparent;
+    border: none;
+    color: #ecf0f1;
+    font-size: 18px;
+ }
+ 
+ .menu-link {
+    color: #ecf0f1;
+    padding: 8px 16px;
+    display: block;
+    font-size: 16px;
+ }
+ 
+ .menu-link:hover {
+    background-color: #1a40bc;
+    text-decoration: none;
+ }
+ 
+ .btn-outline-info {
+    border-color: #1981ad;
+    color: #1a86bc;
+ }
+ 
+ .btn-outline-info:hover {
+    background-color: #1a9ebc;
+    color: white;
+ }
+ 
+
+ /* Content Section */
+ section h1, section h3, section h4 {
+    color: #2980b9;
+    margin-bottom: 20px;
+ }
+ 
+ .text-center {
+    text-align: center;
+ }
+ 
+ .fst-italic {
+    color: #272d34;
+    font-style: italic;
+ }
+ 
+ hr {
+    border: 1px solid #bdc3c7;
+    width: 60px;
+    margin: 20px auto;
+ }
+ 
+ /* Image Styling */
+ .figure-img {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+ }
+ 
+ .figure-img:hover {
+    transform: scale(1.05);
+ }
+ 
+ .figure-caption {
+    font-size: 14px;
+    color: #7f8c8d;
+    font-style: italic;
+ }
+ 
+ .col-12 p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #7f8c8d;
+ }
+ 
+
+ .credits {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+ }
+ 
+ .credits li {
+    margin-left: 20px;
+    font-size: 14px;
+ }
+ 
+ .credits li:hover {
+    text-decoration: none;
+ }
+ 
+ /* Mobile and Tablet Responsiveness */
+ @media (max-width: 768px) {
+    .navbar-brand {
+       font-size: 20px;
+    }
+ 
+    .menu-link {
+       font-size: 14px;
+    }
+ 
+    .col-12 p {
+       font-size: 14px;
+    }
+ 
+   
+ 
+    .credits {
+       flex-wrap: wrap;
+       justify-content: space-around;
+    }
+ }
+ 
+/**/
+/* General styles */
+body {
+   font-family: 'Arial', sans-serif;
+   background-color: #f8f9fa;
+   color: #333;
+   margin: 0;
+   padding: 0;
+}
+
+/* Navbar styles */
+.navbar {
+   margin-bottom: 30px;
+   padding: 1rem;
+}
+
+.offcanvas-title{
+   color: #eeeeee;
+}
+
+.offcanvas-body {
+   padding: 0;
+   background-color: #191a1b;
+}
+
+.offcanvas-body ul {
+   list-style: none;
+   padding: 0;
+}
+
+.offcanvas-body ul li {
+   margin: 0;
+}
+
+.offcanvas-body ul li a {
+   display: block;
+   padding: 1rem;
+   color: white;
+   text-decoration: none;
+}
+
+.offcanvas-body ul li a:hover {
+   background-color: #8c8d8f;
+}
+
+/* Main content section */
+.main-content {
+   margin-top: 60px;
+}
+/* Custom Styles for Hero Section */
+.text-center h1 {
+   font-size: 3rem;
+   font-weight: bold;
+   color: #272d34;
+}
+
+.text-center hr {
+   width: 50%;
+   border: 1px solid #007bff;
+   margin: 1rem auto;
+}
+/* Section Titles */
+h2 {
+   color: #2c3e50;
+   font-size: 2rem;
+   margin-bottom: 1rem;
+}
+
+/* Cards */
+.card {
+   border: none;
+   border-radius: 0.5rem;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+   margin-bottom: 2rem;
+}
+
+.card img {
+   border-radius: 0.5rem 0.5rem 0 0;
+   height: 200px;
+   object-fit: cover;
+}
+
+.card-body {
+   padding: 1.5rem;
+}
+
+.card-title {
+   font-size: 1.5rem;
+   font-weight: bold;
+   color: #333;
+}
+
+.card-text {
+   font-size: 1.1rem;
+   color: #666;
+}
+
+.card-body .btn {
+   background-color: #007bff;
+   color: white;
+}
+
+.card-body .btn:hover {
+   background-color: #0056b3;
+}
+
+/* Footer styles */
+footer {
+   background-color: #343a40;
+   color: white;
+   padding: 1rem;
+   position: relative;
+   bottom: 0;
+   width: 100%;
+}
+
+footer p {
+   margin: 0;
+   font-size: 1rem;
+}
+ .footer-logo {
+       width: 30px;
+    }
+
+
+/* Responsive Media Queries */
+@media (max-width: 768px) {
+   .navbar .navbar-brand {
+       font-size: 1.5rem;
+   }
+
+   .card img {
+       height: 150px;
+   }
+
+   h2 {
+       font-size: 1.5rem;
+   }
+
+   .container {
+       padding: 0 1rem;
+   }
+}
+
+@media (max-width: 576px) {
+   h1 {
+       font-size: 2.5rem;
+   }
+
+   .card-body {
+       padding: 1rem;
+   }
+
+   .card-title {
+       font-size: 1.2rem;
+   }
+
+   .card-text {
+       font-size: 1rem;
+   }
+}
+
+  
+  
