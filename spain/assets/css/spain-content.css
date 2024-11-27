@@ -23,7 +23,15 @@
 
 .nav-link.active {
     background-color: var(--bs-secondary) !important;
+    border-color: var(--bs-secondary) !important;
 }
+
+.nav-link:hover {
+    background-color: var(--bs-gray-500) !important;
+    color: ghostwhite;
+}
+
+
 /*.nav-link:hover {*/
 /*    background-color: var(--bs-gray-300);*/
 /*}*/

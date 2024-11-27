@@ -1,0 +1,56 @@
+/* CSS for this section only */
+
+/*.carousel-item img {*/
+/*    height: 50vh;*/
+/*}*/
+
+.card .img-fluid {
+    max-height: 400px;
+}
+
+.banner-container {
+    height: 60vh;
+    width: 100vw;
+}
+
+.banner {
+    height: 100%;
+    background-image: url('../images/pexels-mikhail-nilov-8430374.jpg');
+    background-position: center;
+    background-position-y: -350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn.btn-primary {
+    background-color: var(--bs-secondary) !important;
+    border-color: var(--bs-secondary) !important;
+}
+
+.btn.btn-primary:hover {
+    background-color: var(--bs-gray-700) !important;
+}
+
+@media (max-width: 1280px) {
+    .banner {
+        background-position-y: -200px;
+    }
+}
+
+@media (max-width: 768px) {
+    .banner-container {
+        height: 50vh;
+    }
+    .banner {
+        background-position-y: 0;
+    }
+}
+
+@media (max-width: 500px) {
+    .banner-container {
+        height: 20vh;
+    }
+    .banner {
+        background-position-y: -50px;
+    }
+}
