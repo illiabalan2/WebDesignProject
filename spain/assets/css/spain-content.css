@@ -31,7 +31,11 @@
     color: ghostwhite;
 }
 
-
+@media (max-width: 1000px) {
+    .navbar-c nav {
+        display: none;
+    }
+}
 /*.nav-link:hover {*/
 /*    background-color: var(--bs-gray-300);*/
 /*}*/
