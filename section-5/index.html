@@ -1,12 +1,310 @@
-<!-- Homepage for this section, contains description of content of this section and links to other content pages -->
- <!DOCTYPE html>
- <html lang="en">
- <head>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
- </head>
- <body>
+
+    <link href="styles.css" rel="stylesheet">
+    <link href="base_layout.css" rel="stylesheet">
     
- </body>
- </html>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <title>Egypt</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="navbar navbar-dark bg-dark fixed-top shadow-lg">
+           <div class="container-fluid">
+              <a class="navbar-brand fw-bold" href="/index.html">Historical Site</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                 data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                 <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end text-bg-dark overflow-scroll" tabindex="-1" id="offcanvasDarkNavbar"
+                 aria-labelledby="offcanvasDarkNavbarLabel">
+                 <div class="offcanvas-header">
+                    <h4 class="offcanvas-title fw-bold" id="offcanvasDarkNavbarLabel">Main Menu</h4>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                       aria-label="Close"></button>
+                 </div>
+                 <div class="d-flex flex-column flex-shrink-0 offcanvas-body">
+                    <div class="mb-auto">
+                       <ul class="list-unstyled">
+                          <li class="mb-1">
+                             <button
+                                class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed text-white fw-bold menu-btn"
+                                data-bs-toggle="collapse" data-bs-target="#section-1" aria-expanded="false">
+                                Napoleonic France
+                                <i class="fa-solid fa-caret-down ms-2"></i>
+                             </button>
+                             <div class="collapse" id="section-1">
+                                <ul class="btn-toggle-nav fw-bolder ps-5">
+                                   <li><a href="/napoleonic-france/index.html"
+                                         class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Index</a>
+                                   </li>
+                                   <li><a href="/napoleonic-france/austerlitz.html"
+                                         class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Austerlitz</a>
+                                   </li>
+                                   <li><a href="/napoleonic-france/borodino.html"
+                                         class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Borodino</a>
+                                   </li>
+                                   <li><a href="/napoleonic-france/leipzig.html"
+                                         class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Leipzig</a>
+                                   </li>
+                                   <li><a href="/napoleonic-france/marengo.html"
+                                         class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Marengo</a>
+                                   </li>
+                                </ul>
+                             </div>
+                          </li>
+                          <li class="mb-1">
+                             <button
+                                class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed text-white fw-bold menu-btn"
+                                data-bs-toggle="collapse" data-bs-target="#section-2" aria-expanded="false">
+                                Section 2
+                                <i class="fa-solid fa-caret-down ms-2"></i>
+                             </button>
+                             <div class="collapse" id="section-2">
+                                <ul class="btn-toggle-nav fw-bolder ps-5">
+                                   <li><a href="/section-2/index.html"
+                                         class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Index</a>
+                                   </li>
+                                   <li><a href="/section-2/content-1.html"
+                                         class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content
+                                         1</a></li>
+                                   <li><a href="/section-2/content-2.html"
+                                         class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content
+                                         2</a></li>
+                                   <li><a href="/section-2/content-3.html"
+                                         class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content
+                                         3</a></li>
+                                   <li><a href="/section-2/content-4.html"
+                                         class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content
+                                         4</a></li>
+                                </ul>
+                             </div>
+                          </li>
+                          <li class="mb-1">
+                             <button
+                                class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed text-white fw-bold menu-btn"
+                                data-bs-toggle="collapse" data-bs-target="#section-3" aria-expanded="false">
+                                Section 3
+                                <i class="fa-solid fa-caret-down ms-2"></i>
+                             </button>
+                             <div class="collapse" id="section-3">
+                                <ul class="btn-toggle-nav fw-bolder ps-5">
+                                   <li><a href="/section-3/index.html"
+                                         class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Index</a>
+                                   </li>
+                                   <li><a href="/section-3/content-1.html"
+                                         class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content
+                                         1</a></li>
+                                   <li><a href="/section-3/content-2.html"
+                                         class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content
+                                         2</a></li>
+                                   <li><a href="/section-3/content-3.html"
+                                         class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content
+                                         3</a></li>
+                                   <li><a href="/section-3/content-4.html"
+                                         class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content
+                                         4</a></li>
+                                </ul>
+                             </div>
+                          </li>
+                          <li class="mb-1">
+                             <button
+                                class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed text-white fw-bold menu-btn"
+                                data-bs-toggle="collapse" data-bs-target="#section-4" aria-expanded="false">
+                                Section 4
+                                <i class="fa-solid fa-caret-down ms-2"></i>
+                             </button>
+                             <div class="collapse" id="section-4">
+                                <ul class="btn-toggle-nav fw-bolder ps-5">
+                                   <li><a href="/section-4/index.html"
+                                         class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Index</a>
+                                   </li>
+                                   <li><a href="/section-4/content-1.html"
+                                         class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content
+                                         1</a></li>
+                                   <li><a href="/section-4/content-2.html"
+                                         class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content
+                                         2</a></li>
+                                   <li><a href="/section-4/content-3.html"
+                                         class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content
+                                         3</a></li>
+                                   <li><a href="/section-4/content-4.html"
+                                         class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content
+                                         4</a></li>
+                                </ul>
+                             </div>
+                          </li>
+                          <li class="mb-1">
+                             <button
+                                class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed text-white fw-bold menu-btn"
+                                data-bs-toggle="collapse" data-bs-target="#section-5" aria-expanded="false">
+                                History of Egypt
+                                <i class="fa-solid fa-caret-down ms-2"></i>
+                             </button>
+                             <div class="collapse" id="section-5">
+                                <ul class="btn-toggle-nav fw-bolder ps-5">
+                                   <li><a href="index.html"
+                                         class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Index</a>
+                                   </li>
+                                   <li><a href="/section-5/History-of-egypt.html"
+                                         class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">History Of Egypt
+                                         </a></li>
+                                   <li><a href="/section-5/Monuments.html"
+                                         class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Monuments
+                                         </a></li>
+                                   <li><a href="/section-5/Ancient-Egypt.html"
+                                         class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Ancient Egypt
+                                         </a></li>
+                                   <li><a href="/section-5/Famous-pharaohs.html"
+                                         class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Famous Pharaohs
+                                         </a></li>
+                                </ul>
+                             </div>
+                          </li>
+                       </ul>
+                       <hr>
+                       <a href="/index.html" class="text-decoration-none fw-bold text-white ps-2 menu-btn">Home Page <i
+                             class="fa-solid fa-house"></i></a>
+                    </div>
+                    <hr>
+                    <a href="/contact.html" class="btn btn-outline-info" role="button">
+                       <i class="fa-solid fa-file-signature"></i> Contact Us
+                    </a>
+                 </div>
+              </div>
+           </div>
+        </header>
+  
+        <main class="mt-7">
+            
+            <section class="container text-center py-5">
+                <h1 class="fst-italic"> Ancient Egypt</h1>
+                <hr>
+                <p>
+                    Ancient Egypt is known to be one of the oldest civilizations. It has a history of over 5000 years and is vastly known for its amazing architecture, culture, art, etc. The civilization thrived greatly along the banks of The river Nile. It provided them with fertile soil for agriculture which was the absolute opposite of the otherwise harsh desert environment. From the beginning of the civilization, around 3100 BCE, from the first Pharaoh being successful in unifying the country, to the conquest of Alexander The Great in 332 BCE, the Egyptian civilization has left an impending mark on the world's history. From the pyramids, which are considered to be architectural marvels to the mummies, hieroglyphic writings, and the religious culture. Even more remarkable is the science, spirituality, and philosophy blended into a lasting legacy. The ancient Egyptian civilization was one of the oldest of the Mediterranean World, from around 3100BC till the time of the conquest of Alexander the Great in 332 BC. The ancient Egypt had its history divided into different time periods.
+                </p>
+            </section>
+
+            <!-- Image Gallery Section -->
+            <div class="container text-center my-5">
+                <div class="image-gallery">
+                    <div class="image-item">
+                        <img src="https://images.unsplash.com/photo-1654404886332-9614c4fde3f7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGdyZWF0JTIwcHlyYW1pZCUyMG9mJTIwZ2l6YXxlbnwwfHwwfHx8MA%3D%3D" alt="The Pyramids of Giza">
+                        <div class="caption">The Pyramids of Giza</div>
+                    </div>
+                    <div class="image-item">
+                        <img src="https://images.unsplash.com/photo-1669301038557-f84309ac1269?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c3BoaW54JTIwb2YlMjBnaXphfGVufDB8fDB8fHww" alt="Sphinx of Giza">
+                        <div class="caption">Sphinx of Giza</div>
+                    </div>
+                    <div class="image-item">
+                        <img src="https://images.unsplash.com/photo-1656754817074-742a204e3ddf?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHRlbXBsZSUyMG9mJTIwS2FybmFrfGVufDB8fDB8fHww" alt="Temple of Karnak">
+                        <div class="caption">Temple of Karnak</div>
+                    </div>
+                    <div class="image-item">
+                        <img src="https://images.unsplash.com/photo-1710886324980-997f7742f16c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8THV4b3IlMjB0ZW1wbGV8ZW58MHx8MHx8fDA%3D" alt="Luxor Temple">
+                        <div class="caption">Luxor Temple</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dropdown List Section -->
+            <div class="container">
+                <ul>
+                    <li class="dropdown">
+                        <input type="checkbox" id="collapse1" class="collapse-checkbox">
+                        <label for="collapse1" class="collapse-label">Early Dynastic Period (c. 3100 BCE - 2686 BCE)</label>
+                        <div class="collapse-content">
+                            <p> * Unification of Upper and lower Egypt took place.</p>
+                            <p>* Development of writing (hieroglyphic)</p>
+                        </div>
+                    </li>
+                </li>
+                <li class="dropdown">
+                     <input type="checkbox" id="collapse2" class="collapse-checkbox">
+                     <label for="collapse2" class="collapse-label">Old Kingdom (c. 2686 BCE - 2181 BCE)</label>
+                     <div class="collapse-content">
+                         <p>* This period was known as the Age of Pyramids  saw the construction of the Great Pyramids of Giza (c. 2580 BCE), under the reign of Pharaoh Khufu (Cheops).</p>
+                         <p>* The pharaohs of this period were considered divine rulers</p>
+                     </div>
+                </li>
+                <li class="dropdown">
+                     <input type="checkbox" id="collapse3" class="collapse-checkbox">
+                     <label for="collapse3" class="collapse-label">First Intermediate Period (c. 2181 BCE - 2055 BCE)</label>
+                     <div class="collapse-content">
+                         <p> * It was marked by great political instability with various conflicts internally. </p>
+                      
+                     </div>
+                </li>
+                <li class="dropdown">
+                     <input type="checkbox" id="collapse4" class="collapse-checkbox">
+                     <label for="collapse4" class="collapse-label">Middle Kingdom (c. 2055 BCE - 1650 BCE)</label>
+                     <div class="collapse-content">
+                         <p>* The influence of Eqypt expanded.</p>
+                         <p>* Art and literalure culture flourished greatly.</p>
+                     </div>
+                </li>
+                <li class="dropdown">
+                     <input type="checkbox" id="collapse5" class="collapse-checkbox">
+                     <label for="collapse5" class="collapse-label">Second Intermediate Period (c. 1650 BCE - 1550 BCE)</label>
+                     <div class="collapse-content">
+                         <p>* The time when there was the foriegn rule of Hyksos, who were the semitic people</p>
+                     </div>
+                </li>
+                <li class="dropdown">
+                     <input type="checkbox" id="collapse6" class="collapse-checkbox">
+                     <label for="collapse6" class="collapse-label">New Kingdom (c. 1550 BCE - 1077 BCE)</label>
+                     <div class="collapse-content">
+                         <p>* It was consisdered the peak of Eqyptian power.</p>
+                         <p>* Some famous Pharaohs of the time include Hatshepsut,Thutmose III,Akhenaten,Tutankhamun and Ramses II (Ramses the Great).</p>
+                     </div>
+                </li>
+                <li class="dropdown">
+                     <input type="checkbox" id="collapse7" class="collapse-checkbox">
+                     <label for="collapse7" class="collapse-label">Third Intermediate Period (c. 1077 BCE - 664 BCE)</label>
+                     <div class="collapse-content">
+                         <p>* It was the time of political disputes which led to Eqypt being divided into multiple regions due to the foriegn powers like the Libyans and Nubians.</p>
+                     </div>
+                </li>
+                <li class="dropdown">
+                     <input type="checkbox" id="collapse8" class="collapse-checkbox">
+                     <label for="collapse8" class="collapse-label">Late Period (c. 664 BCE - 332 BCE)</label>
+                     <div class="collapse-content">
+                         <p>* A series of foriegn invasions like the invasion by the Persions in 525 BCE and Alexander the Great in 332 BCE.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>      
+                </ul>
+            </div>
+
+        </main>
+
+        <footer class="d-flex flex-wrap justify-content-between align-items-center p-3 mt-5 border-top">
+            <div class="d-flex align-items-center">
+                <img class="footer-logo" src="../assets/images/favicon.ico" alt="Site logo">
+                <span class="mb-3 mb-md-0 text-body-secondary">&copy; 2024 Historical Site</span>
+            </div>
+            <ul class="nav d-flex justify-content-center credits">
+                <li class="ms-5">Illia Balan</li>
+                <li class="ms-5">Yaroslav Hrabovets</li>
+                <li class="ms-5">Liam Kelly</li>
+                <li class="ms-5">Sean O Grady</li>
+                <li class="ms-5">Bhavya Pandey</li>
+                <li class="ms-5">Pavel Soshenko Gnezdilov</li>
+            </ul>
+        </footer>
+    </div>
+</body>
+
+</html>
