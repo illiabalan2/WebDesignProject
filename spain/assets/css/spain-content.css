@@ -36,16 +36,21 @@
         display: none;
     }
 }
-/*.nav-link:hover {*/
-/*    background-color: var(--bs-gray-300);*/
-/*}*/
-/*body {*/
-/*    position: relative;*/
-/*}*/
-/*body {*/
-/*    overflow: hidden;*/
-/*}*/
 
-/*body .col-8 {*/
-/*    overflow-y: visible;*/
-/*}*/
+/* Sagrada Familia */
+
+.banner-sagrada {
+    background-image: url('../images/sagrada-above.jpg');
+    }
+
+.banner-alhambra {
+    background-image: url('../images/alhambra-outside.jpg')
+}
+
+.banner-roman {
+    background-image: url('../images/roman-theatre.jpg');
+}
+
+.banner-tower {
+    background-image: url('../images/tower-outside.jpg');
+}

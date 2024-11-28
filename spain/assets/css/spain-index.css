@@ -13,13 +13,16 @@
     width: 100vw;
 }
 
-.banner {
+.banner, .banner-index {
     height: 100%;
-    background-image: url('../images/pexels-mikhail-nilov-8430374.jpg');
     background-position: center;
-    background-position-y: -350px;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.banner-index {
+    background-image: url('../images/spanish-flag.jpg');
+    background-position-y: -350px;
 }
 
 .btn.btn-primary {
@@ -32,7 +35,7 @@
 }
 
 @media (max-width: 1280px) {
-    .banner {
+    .banner-index {
         background-position-y: -200px;
     }
 }
@@ -41,8 +44,8 @@
     .banner-container {
         height: 50vh;
     }
-    .banner {
-        background-position-y: 0;
+    .banner-index {
+        background-position-y: -150px;
     }
 }
 
@@ -50,7 +53,7 @@
     .banner-container {
         height: 20vh;
     }
-    .banner {
+    .banner-index {
         background-position-y: -50px;
     }
 }
