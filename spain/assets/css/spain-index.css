@@ -44,6 +44,7 @@
     .banner-container {
         height: 50vh;
     }
+
     .banner-index {
         background-position-y: -150px;
     }
@@ -53,6 +54,7 @@
     .banner-container {
         height: 20vh;
     }
+
     .banner-index {
         background-position-y: -50px;
     }
