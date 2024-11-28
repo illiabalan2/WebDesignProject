@@ -54,3 +54,7 @@
 .banner-tower {
     background-image: url('../images/tower-outside.jpg');
 }
+
+body {
+    overflow-x: hidden;
+}
