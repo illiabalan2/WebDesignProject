@@ -1,0 +1,58 @@
+/* Header and footer css to use accross all docs */
+html,
+body {
+    height: 100%;
+}
+
+.wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 1 auto;
+}
+
+.menu-btn:hover {
+    color: var(--bs-secondary) !important;
+}
+
+.menu-link {
+    position: relative;
+}
+
+.menu-link:hover::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    height: 3px;
+    border-radius: 5px;
+    background-color: #9EC5FE;
+    animation: slide 0.5s forwards;
+}
+
+@keyframes slide {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+        left: 0;
+    }
+}
+
+.footer-logo {
+    width: 2rem;
+}
+
+.credits {
+    list-style-type: disc !important;
+}
+
+@media screen and (max-width: 1250px) {
+    footer {
+        flex-direction: column;
+    }
+}
