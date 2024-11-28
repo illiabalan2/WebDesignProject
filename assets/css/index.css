@@ -12,6 +12,7 @@
 
 .section-info {
     transition: .3s;
+    height: 100% !important;
 }
 
 .section-info:hover {
@@ -24,10 +25,6 @@
     height: 10rem;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-}
-
-.section-body {
-    padding: 10px;
 }
 
 .section-body h5 {
