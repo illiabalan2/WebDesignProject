@@ -1,0 +1,56 @@
+/* CSS for this section only */
+
+.navbar-c {
+    position: sticky;
+    top: 100px;
+}
+
+.carousel-item img {
+    height: 85vh;
+}
+
+@media (max-aspect-ratio: 1/1) {
+    .carousel-item img {
+        height: calc(100vw - 30vh);
+    }
+}
+
+@media (max-aspect-ratio: 9/16) {
+    .carousel-item img {
+        height: calc(100vw - 20vh);
+    }
+}
+
+.nav-link.active {
+    background-color: var(--bs-secondary) !important;
+    border-color: var(--bs-secondary) !important;
+}
+
+.nav-link:hover {
+    background-color: var(--bs-gray-500) !important;
+    color: ghostwhite;
+}
+
+@media (max-width: 1000px) {
+    .navbar-c nav {
+        display: none;
+    }
+}
+
+/* Sagrada Familia */
+
+.banner-sagrada {
+    background-image: url('../images/sagrada-above.jpg');
+}
+
+.banner-alhambra {
+    background-image: url('../images/alhambra-outside.jpg')
+}
+
+.banner-roman {
+    background-image: url('../images/roman-theatre.jpg');
+}
+
+.banner-tower {
+    background-image: url('../images/tower-outside.jpg');
+}

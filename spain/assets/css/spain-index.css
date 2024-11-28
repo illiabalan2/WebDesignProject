@@ -1,0 +1,61 @@
+/* CSS for this section only */
+
+/*.carousel-item img {*/
+/*    height: 50vh;*/
+/*}*/
+
+.card .img-fluid {
+    max-height: 400px;
+}
+
+.banner-container {
+    height: 60vh;
+    width: 100vw;
+}
+
+.banner, .banner-index {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-index {
+    background-image: url('../images/spanish-flag.jpg');
+    background-position-y: -350px;
+}
+
+.btn.btn-primary {
+    background-color: var(--bs-secondary) !important;
+    border-color: var(--bs-secondary) !important;
+}
+
+.btn.btn-primary:hover {
+    background-color: var(--bs-gray-700) !important;
+}
+
+@media (max-width: 1280px) {
+    .banner-index {
+        background-position-y: -200px;
+    }
+}
+
+@media (max-width: 768px) {
+    .banner-container {
+        height: 50vh;
+    }
+
+    .banner-index {
+        background-position-y: -150px;
+    }
+}
+
+@media (max-width: 500px) {
+    .banner-container {
+        height: 20vh;
+    }
+
+    .banner-index {
+        background-position-y: -50px;
+    }
+}
