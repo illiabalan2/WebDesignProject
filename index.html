@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index Page</title>
-    <link rel="stylesheet" href="/assets/base_layout.css" />
+    <title>Historical Site</title>
+    <!-- Add favicon -->
+    <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
+    <link rel="stylesheet" href="/assets/css/base_layout.css" />
+    <link rel="stylesheet" href="/assets/css/index.css" />
     <!-- Link fontawesome icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Link bootstrap -->
@@ -12,57 +15,202 @@
 </head>
 <body>
     <div class="wrapper">
-        <header class="navbar navbar-dark bg-dark fixed-top">
+        <header class="navbar navbar-dark bg-dark fixed-top shadow-lg">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Offcanvas dark navbar</a>
+                <a class="navbar-brand fw-bold" href="/index.html">Historical Site</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas offcanvas-end text-bg-dark overflow-scroll" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
                     <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+                        <h4 class="offcanvas-title fw-bold" id="offcanvasDarkNavbarLabel">Main Menu</h4>
                         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
-                    <div class="offcanvas-body">
-                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Dropdown
-                                </a>
-                                <ul class="dropdown-menu dropdown-menu-dark">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-                            </li>
-                        </ul>
+                    <div class="d-flex flex-column flex-shrink-0 offcanvas-body">
+                        <div class="mb-auto">
+                            <ul class="list-unstyled">
+                                <li class="mb-1">
+                                    <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed text-white fw-bold menu-btn" data-bs-toggle="collapse" data-bs-target="#section-1" aria-expanded="false">
+                                        Section 1
+                                        <i class="fa-solid fa-caret-down ms-2"></i>
+                                    </button>
+                                    <div class="collapse" id="section-1">
+                                        <ul class="btn-toggle-nav fw-bolder ps-5">
+                                            <li><a href="/section-1/index.html" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Index</a></li>
+                                            <li><a href="/section-1/content-1.html" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content 1</a></li>
+                                            <li><a href="/section-1/content-2.html" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content 2</a></li>
+                                            <li><a href="/section-1/content-3.html" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content 3</a></li>
+                                            <li><a href="/section-1/content-4.html" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content 4</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="mb-1">
+                                    <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed text-white fw-bold menu-btn" data-bs-toggle="collapse" data-bs-target="#section-2" aria-expanded="false">
+                                        Section 2
+                                        <i class="fa-solid fa-caret-down ms-2"></i>
+                                    </button>
+                                    <div class="collapse" id="section-2">
+                                        <ul class="btn-toggle-nav fw-bolder ps-5">
+                                            <li><a href="/section-2/index.html" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Index</a></li>
+                                            <li><a href="/section-2/content-1.html" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content 1</a></li>
+                                            <li><a href="/section-2/content-2.html" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content 2</a></li>
+                                            <li><a href="/section-2/content-3.html" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content 3</a></li>
+                                            <li><a href="/section-2/content-4.html" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content 4</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="mb-1">
+                                    <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed text-white fw-bold menu-btn" data-bs-toggle="collapse" data-bs-target="#section-3" aria-expanded="false">
+                                        Section 3
+                                        <i class="fa-solid fa-caret-down ms-2"></i>
+                                    </button>
+                                    <div class="collapse" id="section-3">
+                                        <ul class="btn-toggle-nav fw-bolder ps-5">
+                                            <li><a href="/section-3/index.html" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Index</a></li>
+                                            <li><a href="/section-3/content-1.html" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content 1</a></li>
+                                            <li><a href="/section-3/content-2.html" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content 2</a></li>
+                                            <li><a href="/section-3/content-3.html" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content 3</a></li>
+                                            <li><a href="/section-3/content-4.html" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content 4</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="mb-1">
+                                    <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed text-white fw-bold menu-btn" data-bs-toggle="collapse" data-bs-target="#section-4" aria-expanded="false">
+                                        Section 4
+                                        <i class="fa-solid fa-caret-down ms-2"></i>
+                                    </button>
+                                    <div class="collapse" id="section-4">
+                                        <ul class="btn-toggle-nav fw-bolder ps-5">
+                                            <li><a href="/section-4/index.html" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Index</a></li>
+                                            <li><a href="/section-4/content-1.html" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content 1</a></li>
+                                            <li><a href="/section-4/content-2.html" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content 2</a></li>
+                                            <li><a href="/section-4/content-3.html" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content 3</a></li>
+                                            <li><a href="/section-4/content-4.html" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content 4</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="mb-1">
+                                    <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed text-white fw-bold menu-btn" data-bs-toggle="collapse" data-bs-target="#section-5" aria-expanded="false">
+                                        Section 5
+                                        <i class="fa-solid fa-caret-down ms-2"></i>
+                                    </button>
+                                    <div class="collapse" id="section-5">
+                                        <ul class="btn-toggle-nav fw-bolder ps-5">
+                                            <li><a href="/section-5/index.html" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Index</a></li>
+                                            <li><a href="/section-5/content-1.html" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content 1</a></li>
+                                            <li><a href="/section-5/content-2.html" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content 2</a></li>
+                                            <li><a href="/section-5/content-3.html" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content 3</a></li>
+                                            <li><a href="/section-5/content-4.html" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Content 4</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                            <hr>
+                            <a href="/index.html" class="text-decoration-none fw-bold text-white ps-2 menu-btn">Home Page <i class="fa-solid fa-house"></i></a>
+                        </div>
+                        <hr>
+                        <a href="/contact.html" class="btn btn-outline-info" role="button">
+                            <i class="fa-solid fa-file-signature"></i>
+                            Contact Us
+                        </a>
                     </div>
                 </div>
             </div>
         </header>
-        <main>
-            <!-- Main content -->
+        <main class="mt-5">
+           <div class="banner-container"><div class="banner"></div></div>
+           <section class="container text-center py-5">
+                <h1 class="fst-italic">Our Historical Site</h1>
+                <hr>
+                <p>
+                    This site was created to allow everyone learn something new. 
+                    This site covered five different countries and their history.
+                    We are definitely sure that you will get something new and spend time with pleasure
+                </p>
+           </section>
+           <section class="container">
+                <h2 class="text-center fst-italic">Find our historical sections</h2>
+                <hr>
+                <div class="row mt-2">
+                    <div class="col-md-4 p-3 mb-3">
+                        <div class="bg-body-tertiary rounded section-info">
+                            <img class="section-image" src="/assets/images/my-example.jpeg" alt="Section-1 Image">
+                            <div class="section-body">
+                                <h5>Section-1</h5>
+                                <hr>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto vero qui totam consectetur laborum corporis molesti.</p>
+                                <a class="btn btn-outline-secondary w-100" href="/section-1/index.html" role="button">Visit</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 p-3 mb-3">
+                        <div class="bg-body-tertiary rounded section-info">
+                            <img class="section-image" src="/assets/images/my-example.jpeg" alt="Section-2 Image">
+                            <div class="section-body">
+                                <h5>Section-2</h5>
+                                <hr>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto vero qui totam consectetur laborum corporis molesti.</p>
+                                <a class="btn btn-outline-secondary w-100" href="/section-2/index.html" role="button">Visit</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 p-3 mb-3">
+                        <div class="bg-body-tertiary rounded section-info">
+                            <img class="section-image" src="/assets/images/my-example.jpeg" alt="Section-3 Image">
+                            <div class="section-body">
+                                <h5>Section-3</h5>
+                                <hr>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto vero qui totam consectetur laborum corporis molesti.</p>
+                                <a class="btn btn-outline-secondary w-100" href="/section-3/index.html" role="button">Visit</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 p-3 mb-3">
+                        <div class="bg-body-tertiary rounded section-info">
+                            <img class="section-image" src="/assets/images/my-example.jpeg" alt="Section-4 Image">
+                            <div class="section-body">
+                                <h5>Section-4</h5>
+                                <hr>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto vero qui totam consectetur laborum corporis molesti.</p>
+                                <a class="btn btn-outline-secondary w-100" href="/section-4/index.html" role="button">Visit</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 p-3 mb-3">
+                        <div class="bg-body-tertiary rounded section-info">
+                            <img class="section-image" src="/assets/images/my-example.jpeg" alt="Section-5 Image">
+                            <div class="section-body">
+                                <h5>Section-5</h5>
+                                <hr>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto vero qui totam consectetur laborum corporis molesti.</p>
+                                <a class="btn btn-outline-secondary w-100" href="/section-5/index.html" role="button">Visit</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="container-fluid bg-dark text-white text-center p-3 mt-5">
+                <h2 class="fst-italic">Contact Form</h2>
+                <hr>
+                <p>If you have any queries you can easily contact us using button below</p>
+                <a href="/contact.html" class="btn btn-outline-info" role="button">
+                    <i class="fa-solid fa-file-signature"></i>
+                    Contact Us
+                </a>
+            </section>
         </main>
         <footer class="d-flex flex-wrap justify-content-between align-items-center p-3 mt-5 border-top">
-            <div class="col-md-4 d-flex align-items-center">
-                <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
-                    <i class="fa-brands fa-html5"></i>
-                </a>
-                <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Company, Inc</span>
+            <div class="d-flex align-items-center">
+                <img class="footer-logo" src="/assets/images/favicon.ico" alt="Site logo">
+                <span class="mb-3 mb-md-0 text-body-secondary">&copy; 2024 Historical Site</span>
             </div>
-            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-                <li class="ms-3"><a class="text-body-secondary" href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                <li class="ms-3"><a class="text-body-secondary" href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                <li class="ms-3"><a class="text-body-secondary" href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            <ul class="nav d-flex justify-content-center credits">
+                <li class="ms-5">Illia Balan</li>
+                <li class="ms-5">Yaroslav Hrabovets</li>
+                <li class="ms-5">Liam Kelly</li>
+                <li class="ms-5">Sean O Grady</li>
+                <li class="ms-5">Bhavya Pandey</li>
+                <li class="ms-5">Pavel Soshenko Gnezdilov</li>
             </ul>
         </footer>
     </div>

@@ -1,0 +1,35 @@
+.banner-container {
+    height: 300px;
+}
+
+.banner {
+    background-image: url('../images/homepage-banner.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-info {
+    transition: .3s;
+}
+
+.section-info:hover {
+    transform: scale(1.05);
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, .2);
+}
+
+.section-image {
+    width: 100%;
+    height: 10rem;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.section-body {
+    padding: 10px;
+}
+
+.section-body h5 {
+    font-weight: bolder;
+}
