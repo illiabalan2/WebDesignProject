@@ -35,7 +35,11 @@ a:hover {
 }
 
 .card-image {
-    height: auto;
+    max-width: 100%;
+}
+
+.card-image-main {
+    height: 200px;
 }
 
 .accordion * {
