@@ -111,7 +111,7 @@
     line-height: 1.6;
  }
  
- h1, h2, h3, h4, h5, h6 {
+ h1, h2, h3, main h4, h5, h6 {
     font-family: 'Georgia', serif;
     font-weight: bold;
     color: #2c3e50;
@@ -121,50 +121,50 @@
  }
  
  /* Navbar Styles */
- .navbar {
+ /* .navbar {
 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
- }
+ } */
  
- .navbar-brand {
+ /* .navbar-brand {
     color: #ecf0f1;
     font-size: 24px;
     letter-spacing: 1px;
- }
+ } */
  
- .navbar-toggler-icon {
+ /* .navbar-toggler-icon {
     background-color: #ecf0f1;
- }
+ } */
  
- .offcanvas-header {
+ /* .offcanvas-header {
     background-color: #cddae8;
     color: #ecf0f1;
- }
+ } */
  
- .offcanvas-body {
+ /* .offcanvas-body {
     background-color: #b8cbde;
- }
+ } */
  
- .menu-btn {
+ /* .menu-btn {
     background-color: transparent;
     border: none;
     color: #ecf0f1;
     font-size: 18px;
- }
+ } */
  
- .menu-link {
+ /* .menu-link {
     color: #ecf0f1;
     padding: 8px 16px;
     display: block;
     font-size: 16px;
- }
+ } */
  
- .menu-link:hover {
+ /* .menu-link:hover {
     background-color: #1a40bc;
     text-decoration: none;
- }
+ } */
  
- .btn-outline-info {
+ /* .btn-outline-info {
     border-color: #1981ad;
     color: #1a86bc;
  }
@@ -172,7 +172,7 @@
  .btn-outline-info:hover {
     background-color: #1a9ebc;
     color: white;
- }
+ } */
  
  
  /* Content Section */
@@ -190,7 +190,7 @@
     font-style: italic;
  }
  
- hr {
+ main hr {
     border: 1px solid #bdc3c7;
     width: 60px;
     margin: 20px auto;
@@ -249,14 +249,6 @@
  
  /* Mobile and Tablet Responsiveness */
  @media (max-width: 768px) {
-    .navbar-brand {
-       font-size: 20px;
-    }
- 
-    .menu-link {
-       font-size: 14px;
-    }
- 
     .col-12 p {
        font-size: 14px;
     }
@@ -372,17 +364,17 @@ body {
 
 
 /* Navbar styles */
-.navbar {
+/* .navbar {
    margin-bottom: 30px;
    padding: 1rem;
-}
+} */
 
-.offcanvas-title{
+/* .offcanvas-title{
    color: #7b7878;
    
-}
+} */
 
-.offcanvas-body {
+/* .offcanvas-body {
    padding: 0;
    background-color: #191a1b;
 }
@@ -405,7 +397,7 @@ body {
 
 .offcanvas-body ul li a:hover {
    background-color: #8c8d8f;
-}
+} */
 
 /* Main content section */
 .main-content {
@@ -487,10 +479,6 @@ footer p {
 
 /* Responsive Media Queries */
 @media (max-width: 768px) {
-   .navbar .navbar-brand {
-       font-size: 1.5rem;
-   }
-
    .card img {
        height: 150px;
    }
