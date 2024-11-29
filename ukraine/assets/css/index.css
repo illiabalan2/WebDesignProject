@@ -5,10 +5,19 @@ main h1 {
     font-family: Poppins;
 }
 
-main p {
+p {
     padding: 20px;
     font-size: 105%;
     font-family: Lato;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: rgb(27, 27, 27);
+    background-color: transparent; 
 }
 
 #index_text {
