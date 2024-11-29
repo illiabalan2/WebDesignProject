@@ -1,0 +1,456 @@
+/* Header and footer css to use accross all docs */
+html,
+body{
+    font-weight:500;      
+}
+
+
+.main-style {
+    background: url(file:///home/sean/Downloads/ireland-4594424_1280.jpg) no-repeat center center fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.celtic {
+    background: url(file:///home/sean/Pictures/hand-drawn-celtic-frame-design_23-2149666706.jpg) no-repeat center center fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.famine {
+    background: url(file:///home/sean/Pictures/photo-1642796013928-a61b6941db11.avif) no-repeat center center fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.easter-rising {
+    background: url(file:///home/sean/Pictures/free-photo-of-government-building-in-dublin-in-black-and-white.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.monuments{
+    background: url(file:///home/sean/Pictures/photo-1596303100092-cd7058b23b2b.avif) no-repeat center center fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+
+.wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 1 auto;
+}
+
+.main-style {
+    background: url(file:///home/sean/Pictures/irish-tricolour-flag_0.jpg) no-repeat center center fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu-btn:hover {
+    color: var(--bs-secondary) !important;
+}
+
+.menu-link {
+    position: relative;
+}
+
+.menu-link:hover::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    height: 3px;
+    border-radius: 5px;
+    background-color: #9EC5FE;
+    animation: slide 0.5s forwards;
+}
+
+.page-nav{
+    text-align: center;
+}
+
+.page-nav li {
+    display: flex; /* Use flexbox to align items horizontally */
+    align-items: center; /* Vertically center align the items */
+    margin-bottom: 10px; /* Adds space between the list items */
+    margin-right: 300px;
+    font-size: 40px;
+}
+
+.page-nav img {
+    width: 500px;  /* Adjust image size */
+    height: 500px; /* Adjust image size */
+    margin-right: 300px;
+}
+
+.page-nav a{
+    margin-right: 500px;
+    background: url(file:///home/sean/Pictures/photo-1706271952285-01b5e3fc2d78.avif);
+    border-radius: 10%;
+}
+
+
+
+.image-caption{
+    background: url(file:///home/sean/Pictures/photo-1706271952285-01b5e3fc2d78.avif);
+    background-size: 500px 1100px;
+    background-repeat: no-repeat;
+}
+
+figcaption{
+    max-width: 500px;
+    font-size: 22px;
+    max-height: max-content;
+    font-weight: bold;
+}
+
+
+figure img{
+    width: 500px;
+    height: 500px;
+    margin-right: 50px;
+}
+
+
+.page-nav p{
+    margin-right: 500px;
+    background: url(file:///home/sean/Pictures/photo-1706271952285-01b5e3fc2d78.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10%;
+    font-size: 24.5px;
+    font-weight: 600;
+    width: 500px;
+    height: 470px;
+    size-adjust: auto;
+}
+
+
+
+
+
+nav li{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+h2{
+    text-align: center;
+
+}
+
+
+
+.imageflex{
+    display: flex;
+    margin-left: 12%;
+    margin-right: 50%;
+}
+
+.image-flex p{
+    margin-top: 10%;
+}
+
+.imageflex1{
+    display: flex;
+    margin-left: 27%;
+    margin-right: 40%;
+    background: url(file:///home/sean/Pictures/photo-1706271952285-01b5e3fc2d78.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10%;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 10%;  
+    width: 800px;
+    align-items: center;
+}
+
+
+.imageflex1 p{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.imageflex1 img{
+    align-items: center;
+     
+}
+
+
+.imageflex2{
+    display: flex;
+    margin-left: 27%;
+    margin-right: 40%;
+    background: url(file:///home/sean/Pictures/photo-1706271952285-01b5e3fc2d78.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10%;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10%;
+    margin-bottom: 10%;  
+    width: 900px;
+    align-items: center;
+    height: 500px;
+    text-align: auto;
+}
+
+.imageflex2 img{
+    width: 500px;
+    height: 300px;
+    display: flex;
+}
+
+.imageflex2 p{
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 5%;
+    text-size-adjust: auto;
+    text-align: auto;
+    height: 400px;
+    font-size: 21px;
+}
+
+.imageflex3{
+    display: flex;
+    margin-left: 27%;
+    margin-right: 40%;
+    background: url(file:///home/sean/Pictures/photo-1706271952285-01b5e3fc2d78.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10%;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10%;  
+    width: 900px;
+    align-items: center;
+    height: 500px;
+    text-align: auto;
+}
+
+.imageflex3 img{
+    width: 500px;
+    height: 300px;
+    display: flex;
+}
+
+.imageflex3 p{
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 5%;
+    text-size-adjust: auto;
+    text-align: auto;
+    height: 400px;
+    font-size: 21px;
+}
+
+
+
+.center {
+    display: block;
+    margin-left: -290px;
+    margin-right: 0px;
+    width: 50%;
+  }
+.page-nav img {
+    width: 500px;  /* Adjust image size */
+    height: 500px; /* Adjust image size */
+    margin-right: 300px;
+}
+
+
+
+
+.imageflexcontent{
+    margin-left: 30%;
+    margin-top: 0px;
+    margin-right: 70%;
+    overflow-y: hidden;
+}
+
+.imageflex1 img{
+    align-items: center;
+     
+}
+
+
+
+
+
+.header-content1{
+    background: url(file:///home/sean/Pictures/photo-1706271952285-01b5e3fc2d78.avif);
+    text-align: center;
+    margin-right:40%;
+    margin-left:40%;
+    font-size:25px;
+    border-radius: 10%;
+    font-weight:500;
+
+}
+
+.header-content3{
+    background: url(file:///home/sean/Pictures/photo-1706271952285-01b5e3fc2d78.avif);
+    text-align: center;
+    margin-right:40%;
+    margin-left:40%;
+    font-size:25px;
+    border-radius: 10%;
+    font-weight:500;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.header-content{
+    background: url(file:///home/sean/Pictures/photo-1706271952285-01b5e3fc2d78.avif);
+    text-align: center;
+    margin-right:20%;
+    margin-left:20%;
+    font-size:25px;
+    border-radius: 10%;
+    font-weight:500;
+}
+
+.header-content2{
+    background: url(file:///home/sean/Pictures/photo-1706271952285-01b5e3fc2d78.avif);
+    text-align: center;
+    margin-right:40%;
+    margin-left:40%;
+    font-size:25px;
+    border-radius: 10%;
+    font-weight:500;
+    margin-top: 10%;
+
+}
+
+.flex-parent {
+    display: flex;
+    margin-left: 1%;
+  }
+
+.flex-child {
+    flex: 1;
+    margin-right: 10%;
+  }
+
+.navbar-brand{
+    text-align: center;
+    font-size: 50px;
+}
+
+.page-header1 {  
+    margin-top: 10%;
+    text-align: center;
+}
+
+.page-header4{
+    text-align: center;
+    margin-top: 5%;
+
+}
+
+.page-header {
+    margin-top: 4%;
+    margin-bottom: 8%;
+
+
+
+}
+
+.pageheader3{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 45px;
+}
+
+.header-content1{
+    background: url(file:///home/sean/Pictures/photo-1706271952285-01b5e3fc2d78.avif);
+    text-align: center;
+    margin-right:40%;
+    margin-left:40%;
+    font-size:20px;
+    border-radius: 10%;
+    font-weight:500;
+}
+
+.header-content4{
+    background: url(file:///home/sean/Downloads/premium_photo-1670728879211-255c972938e8.avif);
+    text-align: center;
+    margin-right:40%;
+    margin-left:40%;
+    font-size:20px;
+    border-radius: 10%;
+    font-weight:700;
+    text-decoration-color: #fff;
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+
+.header-content4 p{
+    font-size: 32px;
+}
+
+.heading1{
+    font-weight: bold;
+    text-decoration: underline;
+} 
+
+
+
+h1{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.header-content p{
+    margin-top:13%;
+}
+
+.page-header h1{
+    font-size: 80px;
+}
+
+
+
+@keyframes slide {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+        left: 0;
+    }
+}
+
+.footer-logo {
+    width: 2rem;
+}
+
+.credits {
+    list-style-type: disc !important;
+}
+
+@media screen and (max-width: 1250px) {
+    footer {
+        flex-direction: column;
+    }
+}
