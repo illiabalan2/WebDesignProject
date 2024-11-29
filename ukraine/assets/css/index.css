@@ -11,6 +11,10 @@ p {
     font-family: Lato;
 }
 
+.card p {
+    padding: 10px;
+}
+
 a {
     color: black;
 }
@@ -36,16 +40,4 @@ a:hover {
 
 .accordion * {
     border-radius: 0 !important;
-}
-
-@media screen and (min-width: 995px) {
-    .card-image {
-        height: 128px;
-    }
-}
-
-@media screen and (min-width: 1240px) {
-    .card-image {
-        height: 228px;
-    }
 }
