@@ -116,64 +116,6 @@
     font-weight: bold;
     color: #2c3e50;
  }
- main {
-   padding-top: 70px;
- }
- 
- /* Navbar Styles */
- /* .navbar {
-
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
- } */
- 
- /* .navbar-brand {
-    color: #ecf0f1;
-    font-size: 24px;
-    letter-spacing: 1px;
- } */
- 
- /* .navbar-toggler-icon {
-    background-color: #ecf0f1;
- } */
- 
- /* .offcanvas-header {
-    background-color: #cddae8;
-    color: #ecf0f1;
- } */
- 
- /* .offcanvas-body {
-    background-color: #b8cbde;
- } */
- 
- /* .menu-btn {
-    background-color: transparent;
-    border: none;
-    color: #ecf0f1;
-    font-size: 18px;
- } */
- 
- /* .menu-link {
-    color: #ecf0f1;
-    padding: 8px 16px;
-    display: block;
-    font-size: 16px;
- } */
- 
- /* .menu-link:hover {
-    background-color: #1a40bc;
-    text-decoration: none;
- } */
- 
- /* .btn-outline-info {
-    border-color: #1981ad;
-    color: #1a86bc;
- }
- 
- .btn-outline-info:hover {
-    background-color: #1a9ebc;
-    color: white;
- } */
- 
  
  /* Content Section */
  section h1, section h3, section h4 {
@@ -219,34 +161,6 @@
     color: #7f8c8d;
  }
  
- /* Footer Styles */
- footer {
-    background-color: #34495e;
-    color: #ecf0f1;
-    padding: 20px 0;
- }
- 
- .footer-logo {
-    width: 40px;
-    margin-right: 10px;
- }
- 
- .credits {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    padding: 0;
- }
- 
- .credits li {
-    margin-left: 20px;
-    font-size: 14px;
- }
- 
- .credits li:hover {
-    text-decoration: none;
- }
- 
  /* Mobile and Tablet Responsiveness */
  @media (max-width: 768px) {
     .col-12 p {
@@ -262,8 +176,7 @@
        justify-content: space-around;
     }
  }
- 
-/**/
+
 /* General styles */
 body {
    font-family: 'Arial', sans-serif;
@@ -326,12 +239,12 @@ body {
    }
 }
 .banner4 {
-   background-image: url('https://images.unsplash.com/photo-1680510691131-7a349363070f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); 
+   background-image: url('https://images.unsplash.com/photo-1680510691131-7a349363070f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
    background-size: cover;
    background-position: center;
    color: white;
    text-align: center;
-   padding: 150px 0;  
+   padding: 150px 0;
 }
 .banner4 h1 {
    font-size: 3rem;
@@ -361,43 +274,6 @@ body {
        background-attachment: scroll; 
    }
 }
-
-
-/* Navbar styles */
-/* .navbar {
-   margin-bottom: 30px;
-   padding: 1rem;
-} */
-
-/* .offcanvas-title{
-   color: #7b7878;
-   
-} */
-
-/* .offcanvas-body {
-   padding: 0;
-   background-color: #191a1b;
-}
-
-.offcanvas-body ul {
-   list-style: none;
-   padding: 0;
-}
-
-.offcanvas-body ul li {
-   margin: 0;
-}
-
-.offcanvas-body ul li a {
-   display: block;
-   padding: 1rem;
-   color: white;
-   text-decoration: none;
-}
-
-.offcanvas-body ul li a:hover {
-   background-color: #8c8d8f;
-} */
 
 /* Main content section */
 .main-content {
@@ -447,21 +323,6 @@ h2 {
 
 .card-body .btn:hover {
    background-color: #0056b3;
-}
-
-/* Footer styles */
-footer {
-   background-color: #343a40;
-   color: white;
-   padding: 1rem;
-   position: relative;
-   bottom: 0;
-   width: 100%;
-}
-
-footer p {
-   margin: 0;
-   font-size: 1rem;
 }
 
 /* Custom Styles for Hero Section */
