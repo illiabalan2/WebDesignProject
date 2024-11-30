@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kyivan Rus'</title>
-    <link rel="stylesheet" href="/assets/css/base_layout.css">
+    <link rel="stylesheet" href="../assets/css/base_layout.css">
     <link rel="stylesheet" href="assets/css/index.css">
     <!-- Link fontawesome icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -13,6 +13,111 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">
 </head>
 <body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<div class="wrapper">
+    <header class="navbar navbar-dark bg-dark fixed-top shadow-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="../index.html">Historical Site</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark overflow-scroll" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                    <h4 class="offcanvas-title fw-bold" id="offcanvasDarkNavbarLabel">Main Menu</h4>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="d-flex flex-column flex-shrink-0 offcanvas-body">
+                    <div class="mb-auto">
+                        <ul class="list-unstyled">
+                            <li class="mb-1">
+                                <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed text-white fw-bold menu-btn" data-bs-toggle="collapse" data-bs-target="#section-1" aria-expanded="false">
+                                    Napoleonic France
+                                    <i class="fa-solid fa-caret-down ms-2"></i>
+                                </button>
+                                <div class="collapse" id="section-1">
+                                    <ul class="btn-toggle-nav fw-bolder ps-5">
+                                        <li><a href="../napoleonic-france/index.html" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Index</a></li>
+                                        <li><a href="../napoleonic-france/austerlitz.html" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Austerlitz</a></li>
+                                        <li><a href="../napoleonic-france/borodino.html" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Borodino</a></li>
+                                        <li><a href="../napoleonic-france/leipzig.html" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Leipzig</a></li>
+                                        <li><a href="../napoleonic-france/marengo.html" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Marengo</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="mb-1">
+                                <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed text-white fw-bold menu-btn" data-bs-toggle="collapse" data-bs-target="#section-2" aria-expanded="false">
+                                    Spanish Architecture
+                                    <i class="fa-solid fa-caret-down ms-2"></i>
+                                </button>
+                                <div class="collapse" id="section-2">
+                                    <ul class="btn-toggle-nav fw-bolder ps-5">
+                                        <li><a href="../spain/index.html" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Index</a></li>
+                                        <li><a href="../spain/alhambra-palace.html" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Alhambra Palace</a></li>
+                                        <li><a href="../spain/roman-theater.html" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Roman Theater</a></li>
+                                        <li><a href="../spain/sagrada-familia.html" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">La Sagrada Família</a></li>
+                                        <li><a href="../spain/tower-of-hercules.html" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Tower of Hercules</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="mb-1">
+                                <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed text-white fw-bold menu-btn" data-bs-toggle="collapse" data-bs-target="#section-3" aria-expanded="false">
+                                    History of egypt
+                                    <i class="fa-solid fa-caret-down ms-2"></i>
+                                </button>
+                                <div class="collapse" id="section-3">
+                                    <ul class="btn-toggle-nav fw-bolder ps-5">
+                                        <li><a href="../section-5/index.html" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Index</a></li>
+                                        <li><a href="../section-5/Ancient-Egypt.html" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Ancient Egypt</a></li>
+                                        <li><a href="../section-5/Famous-pharaohs.html" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Famous Pharaohs</a></li>
+                                        <li><a href="../section-5/History-of-egypt.html" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">History of Egypt</a></li>
+                                        <li><a href="../section-5/Monuments.html" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Monuments</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="mb-1">
+                                <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed text-white fw-bold menu-btn" data-bs-toggle="collapse" data-bs-target="#section-4" aria-expanded="false">
+                                    Irish History
+                                    <i class="fa-solid fa-caret-down ms-2"></i>
+                                </button>
+                                <div class="collapse" id="section-4">
+                                    <ul class="btn-toggle-nav fw-bolder ps-5">
+                                        <li><a href="../section-3/index.html" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Index</a></li>
+                                        <li><a href="../section-3/1916.html" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">The 1916 Rising</a></li>
+                                        <li><a href="../section-3/celtic.html" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Celtic Period</a></li>
+                                        <li><a href="../section-3/famine.html" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">The Great Famine</a></li>
+                                        <li><a href="../section-3/monuments.html" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Monuments</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="mb-1">
+                                <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed text-white fw-bold menu-btn" data-bs-toggle="collapse" data-bs-target="#section-5" aria-expanded="false">
+                                    History of Ukraine
+                                    <i class="fa-solid fa-caret-down ms-2"></i>
+                                </button>
+                                <div class="collapse" id="section-5">
+                                    <ul class="btn-toggle-nav fw-bolder ps-5">
+                                        <li><a href="index.html" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Index</a></li>
+                                        <li><a href="cossacks.html" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Hetmanate and Cossacks</a></li>
+                                        <li><a href="kyivan_rus.html" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Kyivan Rus'</a></li>
+                                        <li><a href="trypillians.html" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Trypillians</a></li>
+                                        <li><a href="ussr.html" class="d-inline-flex text-decoration-none rounded text-white pb-1 menu-link">Ukraine under USSR</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                        <hr>
+                        <a href="../credits.html" class="d-block text-decoration-none fw-bold text-white ps-2 mb-2 menu-btn">Site Credits <i class="fa-solid fa-users"></i></a>
+                        <a href="../index.html" class="d-block text-decoration-none fw-bold text-white ps-2 menu-btn">Home Page <i class="fa-solid fa-house"></i></a>
+                    </div>
+                    <hr>
+                    <a href="../contact.html" class="btn btn-outline-info" role="button">
+                        <i class="fa-solid fa-file-signature"></i>
+                        Contact Us
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
     <main class="container">
         <nav class="mt-5 p-3 shadow rounded position-sticky top-0 z-3 bg-light" style="--bs-breadcrumb-divider: '|';" aria-label="breadcrumb">
             <ol class="breadcrumb m-auto">
@@ -92,5 +197,21 @@
             </ul>
         </div>
     </main>
+    <footer class="d-flex flex-wrap justify-content-between align-items-center p-3 mt-5 border-top">
+        <div class="d-flex align-items-center">
+            <img class="footer-logo" src="../assets/images/favicon.ico" alt="Site logo">
+            <span class="mb-3 me-2 mb-md-0 text-body-secondary">&copy; 2024 Historical Site</span>
+            <a href="https://www.holycross.edu/academics/programs/history/courses">homepage banner src</a>
+        </div>
+        <ul class="nav d-flex justify-content-center credits">
+            <li class="ms-5">Illia Balan</li>
+            <li class="ms-5">Yaroslav Hrabovets</li>
+            <li class="ms-5">Liam Kelly</li>
+            <li class="ms-5">Sean O Grady</li>
+            <li class="ms-5">Bhavya Pandey</li>
+            <li class="ms-5">Pavel Soshenko Gnezdilov</li>
+        </ul>
+    </footer>
+</div>
 </body>
 </html>
