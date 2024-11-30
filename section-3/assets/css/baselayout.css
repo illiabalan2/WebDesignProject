@@ -1,12 +1,13 @@
 /* Header and footer css to use accross all docs */
 html,
+
 body{
     font-weight:500;      
 }
 
 
 .main-style {
-    background: url(file:///home/sean/Downloads/ireland-4594424_1280.jpg) no-repeat center center fixed;
+    background: url(https://cdn.pixabay.com/photo/2016/02/19/07/33/flag-1208853_960_720.jpg) no-repeat center center fixed;
     background-size: cover;
     background-repeat: no-repeat;
     max-width: 100%;
@@ -14,7 +15,7 @@ body{
 }
 
 .celtic {
-    background: url(file:///home/sean/Pictures/hand-drawn-celtic-frame-design_23-2149666706.jpg) no-repeat center center fixed;
+    background: url(https://img.freepik.com/free-vector/hand-drawn-celtic-frame-design_23-2149666706.jpg?t=st=1732975150~exp=1732978750~hmac=ff85e01b3737f6d379acce88b5d2a0dba7069b1a895190aab7dccaf24902a204&w=740) no-repeat center center fixed;
     background-size: cover;
     background-repeat: no-repeat;
     max-width: 100%;
@@ -22,7 +23,7 @@ body{
 }
 
 .famine {
-    background: url(file:///home/sean/Pictures/photo-1642796013928-a61b6941db11.avif) no-repeat center center fixed;
+    background: url(https://images.unsplash.com/photo-1598092655914-44f06584e31a?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat center center fixed;
     background-size: cover;
     background-repeat: no-repeat;
     max-width: 100%;
@@ -30,7 +31,7 @@ body{
 }
 
 .easter-rising {
-    background: url(file:///home/sean/Pictures/free-photo-of-government-building-in-dublin-in-black-and-white.jpeg);
+    background: url(https://images.pexels.com/photos/1650882/pexels-photo-1650882.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     background-size: cover;
     background-repeat: no-repeat;
     max-width: 100%;
@@ -38,7 +39,7 @@ body{
 }
 
 .monuments{
-    background: url(file:///home/sean/Pictures/photo-1596303100092-cd7058b23b2b.avif) no-repeat center center fixed;
+    background: url(https://images.pexels.com/photos/140021/pexels-photo-140021.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat center center fixed;
     background-size: cover;
     background-repeat: no-repeat;
     max-width: 100%;
@@ -57,11 +58,6 @@ main {
     flex: 1 1 auto;
 }
 
-.main-style {
-    background: url(file:///home/sean/Pictures/irish-tricolour-flag_0.jpg) no-repeat center center fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 .menu-btn:hover {
     color: var(--bs-secondary) !important;
@@ -102,14 +98,14 @@ main {
 
 .page-nav a{
     margin-right: 500px;
-    background: url(file:///home/sean/Pictures/photo-1706271952285-01b5e3fc2d78.avif);
+    background: url(https://images.unsplash.com/photo-1706271952285-01b5e3fc2d78?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHBhcGVyJTIwdGV4dHVyZXxlbnwwfHwwfHx8Mg%3D%3D);
     border-radius: 10%;
 }
 
 
 
 .image-caption{
-    background: url(file:///home/sean/Pictures/photo-1706271952285-01b5e3fc2d78.avif);
+    background: url(https://images.unsplash.com/photo-1706271952285-01b5e3fc2d78?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHBhcGVyJTIwdGV4dHVyZXxlbnwwfHwwfHx8Mg%3D%3D);
     background-size: 500px 1100px;
     background-repeat: no-repeat;
 }
@@ -131,7 +127,7 @@ figure img{
 
 .page-nav p{
     margin-right: 500px;
-    background: url(file:///home/sean/Pictures/photo-1706271952285-01b5e3fc2d78.avif);
+    background: url(https://images.unsplash.com/photo-1706271952285-01b5e3fc2d78?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHBhcGVyJTIwdGV4dHVyZXxlbnwwfHwwfHx8Mg%3D%3D);
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10%;
@@ -172,7 +168,7 @@ h2{
     display: flex;
     margin-left: 27%;
     margin-right: 40%;
-    background: url(file:///home/sean/Pictures/photo-1706271952285-01b5e3fc2d78.avif);
+    background: url(https://images.unsplash.com/photo-1706271952285-01b5e3fc2d78?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHBhcGVyJTIwdGV4dHVyZXxlbnwwfHwwfHx8Mg%3D%3D);
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10%;
@@ -200,7 +196,7 @@ h2{
     display: flex;
     margin-left: 27%;
     margin-right: 40%;
-    background: url(file:///home/sean/Pictures/photo-1706271952285-01b5e3fc2d78.avif);
+    background: url(https://images.unsplash.com/photo-1706271952285-01b5e3fc2d78?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHBhcGVyJTIwdGV4dHVyZXxlbnwwfHwwfHx8Mg%3D%3D);
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10%;
@@ -230,22 +226,27 @@ h2{
     font-size: 21px;
 }
 
-.imageflex3{
+.imageflex3 {
     display: flex;
     margin-left: 27%;
     margin-right: 40%;
-    background: url(file:///home/sean/Pictures/photo-1706271952285-01b5e3fc2d78.avif);
+    background: url(https://images.unsplash.com/photo-1706271952285-01b5e3fc2d78?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHBhcGVyJTIwdGV4dHVyZXxlbnwwfHwwfHx8Mg%3D%3D);
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10%;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
     margin-top: 20px;
     margin-bottom: 10%;  
     width: 900px;
     align-items: center;
-    height: 500px;
+    height: 600px;
     text-align: auto;
+}
+
+div.imageflex3 > p{
+    font-size: 21px;
+    margin-bottom: 150px;
 }
 
 .imageflex3 img{
@@ -298,7 +299,7 @@ h2{
 
 
 .header-content1{
-    background: url(file:///home/sean/Pictures/photo-1706271952285-01b5e3fc2d78.avif);
+    background: url(https://images.unsplash.com/photo-1706271952285-01b5e3fc2d78?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHBhcGVyJTIwdGV4dHVyZXxlbnwwfHwwfHx8Mg%3D%3D);
     text-align: center;
     margin-right:40%;
     margin-left:40%;
@@ -309,7 +310,7 @@ h2{
 }
 
 .header-content3{
-    background: url(file:///home/sean/Pictures/photo-1706271952285-01b5e3fc2d78.avif);
+    background: url(https://images.unsplash.com/photo-1706271952285-01b5e3fc2d78?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHBhcGVyJTIwdGV4dHVyZXxlbnwwfHwwfHx8Mg%3D%3D);
     text-align: center;
     margin-right:40%;
     margin-left:40%;
@@ -321,7 +322,7 @@ h2{
 }
 
 .header-content{
-    background: url(file:///home/sean/Pictures/photo-1706271952285-01b5e3fc2d78.avif);
+    background: url(https://images.unsplash.com/photo-1706271952285-01b5e3fc2d78?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHBhcGVyJTIwdGV4dHVyZXxlbnwwfHwwfHx8Mg%3D%3D);
     text-align: center;
     margin-right:20%;
     margin-left:20%;
@@ -331,7 +332,7 @@ h2{
 }
 
 .header-content2{
-    background: url(file:///home/sean/Pictures/photo-1706271952285-01b5e3fc2d78.avif);
+    background: url(https://images.unsplash.com/photo-1706271952285-01b5e3fc2d78?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHBhcGVyJTIwdGV4dHVyZXxlbnwwfHwwfHx8Mg%3D%3D);
     text-align: center;
     margin-right:40%;
     margin-left:40%;
@@ -383,7 +384,7 @@ h2{
 }
 
 .header-content1{
-    background: url(file:///home/sean/Pictures/photo-1706271952285-01b5e3fc2d78.avif);
+    background: url(https://images.unsplash.com/photo-1706271952285-01b5e3fc2d78?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHBhcGVyJTIwdGV4dHVyZXxlbnwwfHwwfHx8Mg%3D%3Df);
     text-align: center;
     margin-right:40%;
     margin-left:40%;
@@ -393,7 +394,7 @@ h2{
 }
 
 .header-content4{
-    background: url(file:///home/sean/Downloads/premium_photo-1670728879211-255c972938e8.avif);
+    background: url(https://images.unsplash.com/photo-1706271952285-01b5e3fc2d78?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHBhcGVyJTIwdGV4dHVyZXxlbnwwfHwwfHx8Mg%3D%3D);
     text-align: center;
     margin-right:40%;
     margin-left:40%;
