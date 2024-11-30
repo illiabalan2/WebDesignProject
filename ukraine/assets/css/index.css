@@ -1,0 +1,47 @@
+/* Header and footer css to use accross all docs */
+main h1 {
+    text-align: center;
+    padding-top: 40px;
+    font-family: Poppins;
+}
+
+p {
+    padding: 20px;
+    font-size: 105%;
+    font-family: Lato;
+}
+
+.card p {
+    padding: 10px;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: rgb(27, 27, 27);
+    background-color: transparent; 
+}
+
+#index_text {
+    padding: 30px;
+    font-size: 105%;
+    font-family: Lato;
+}
+
+.card {
+    min-height: 100%;
+}
+
+.card-image {
+    max-width: 100%;
+}
+
+.card-image-main {
+    height: 200px;
+}
+
+.accordion * {
+    border-radius: 0 !important;
+}

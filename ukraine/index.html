@@ -1,12 +1,227 @@
-<!-- Homepage for this section, contains description of content of this section and links to other content pages -->
- <!DOCTYPE html>
- <html lang="en">
- <head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
- </head>
- <body>
-    
- </body>
- </html>
+    <title>Ukraine</title>
+    <link rel="stylesheet" href="/assets/css/base_layout.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <!-- Link fontawesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Link bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="navbar navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+                <h1 class="navbar-brand" href="#">Page navbar</h1>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Page navbar</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Sections
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item" href="#">France</a></li>
+                                    <li><a class="dropdown-item" href="#">Spain</a></li>
+                                    <li><a class="dropdown-item" href="#">Ireland</a></li>
+                                    <li><a class="dropdown-item" href="#">Ukraine</a></li>
+                                    <li><a class="dropdown-item" href="#">Egypt</a></li>
+                                    <!-- <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Contact</a></li> -->
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="mt-5">
+            <!-- Main content -->
+            <h1><i>Ukraine</i></h1>
+            <hr>
+            <div id="index_text1">
+                <p>Nestled in the heart of Eastern Europe, Ukraine is a land steeped in history, cultural richness, and natural beauty. With its fertile plains, known as the "breadbasket of Europe," Ukraine has long been a vital crossroads of civilizations, fostering a diverse heritage shaped by centuries of migration, conquest, and resilience.               The history of Ukraine dates back thousands of years to the early Slavic tribes and the sophisticated culture of the Trypillians. It later became the cradle of Kyivan Rus', a powerful medieval state and the forerunner of modern Eastern Slavic nations. Through the ages, Ukraine has witnessed the rise and fall of empires, from the Golden Horde to the Polish-Lithuanian Commonwealth and the Austro-Hungarian Empire.
+                    
+                    A pivotal chapter in Ukrainian history unfolded in the 20th century, marked by its struggle for independence and resilience through events like the Holodomor, World War II, and the eventual dissolution of the Soviet Union in 1991. Since gaining independence, Ukraine has embraced its cultural identity and fought to maintain its sovereignty, even in the face of modern geopolitical challenges.
+                    
+                    Today, Ukraine stands as a vibrant nation, celebrated for its rich traditions, historic landmarks, and artistic achievements. From the golden domes of Kyiv to the timeless Carpathian Mountains and the cultural tapestry of cities like Lviv and Odesa, Ukraine offers a window into a past filled with triumphs and trials.
+                    
+                    Explore the history of Ukraine and uncover the stories that have shaped its enduring spirit and remarkable journey through time.</p>
+            </div>
+            <div class="container row mx-auto">
+                <!-- Card 1: Trypillians -->
+                <div class="col-lg-3 p-3">
+                    <div class="card">
+                        <img class="card-image-main"
+                                src="assets/images/trypillians.jpg"
+                                alt="Picture of Trypillian People"/>
+                        <div class="card-body p-0">
+                            <h3 class="card-header p-3">Trypillians</h3>
+                            <div class="accordion" id="Card1Description">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Card1ShortDescription" aria-expanded="false" aria-controls="Card1ShortDescription">
+                                            Short Description
+                                        </button>
+                                    </h2>
+                                    <div id="Card1ShortDescription" class="accordion-collapse collapse">
+                                        <div class="accordion-body">
+                                            The Trypillians were an ancient Neolithic culture that flourished in Ukraine around 4,000 BC.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Discover the Trypillians and their impact on ancient Ukraine.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="trypillians.html" class="btn btn-primary w-100">Read More</a>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Card 2: Kyivan Rus' -->
+                <div class="col-lg-3 p-3">
+                    <div class="card">
+                        <img class="card-image-main"
+                                src="assets/images/christianisation.jpg"
+                                alt="Kyivan Rus'"/>
+                        <div class="card-body p-0">
+                            <h3 class="card-header p-3">Kyivan Rus'</h3>
+                            <div class="accordion" id="Card2Description">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Card2ShortDescription" aria-expanded="false" aria-controls="Card2ShortDescription">
+                                            Short Description
+                                        </button>
+                                    </h2>
+                                    <div id="Card2ShortDescription" class="accordion-collapse collapse">
+                                        <div class="accordion-body">
+                                            Kyivan Rus' was a medieval state and the cultural foundation of modern Ukraine, Russia, and Belarus.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Learn about the rise of Kyivan Rus' and its golden age.</p>
+                        </div>
+                        <div class="div card-footer">
+                            <a href="kyivan_rus.html" class="btn btn-primary w-100">Read More</a>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Card 3: Hetmanate and Cossack Period -->
+                <div class="col-lg-3 p-3">
+                    <div class="card">
+                        <img class="card-image-main"
+                                src="assets/images/cossacks.jpg"
+                                alt="Hetmanate and Cossack Period"/>
+                        <div class="card-body p-0">
+                            <h3 class="card-header p-3">Hetmanate</h3>
+                            <div class="accordion" id="Card3Description">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Card3ShortDescription" aria-expanded="false" aria-controls="Card3ShortDescription">
+                                            Short Description   
+                                        </button>
+                                    </h2>
+                                    <div id="Card3ShortDescription" class="accordion-collapse collapse">
+                                        <div class="accordion-body">
+                                            This period saw the rise of the Cossacks and the establishment of the Hetmanate as a self-governing region.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Explore the Cossack legacy and its influence on Ukraine.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="cossacks.html" class="btn btn-primary w-100">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            
+                    <!-- Card 4: Russian Empire and USSR -->
+                <div class="col-lg-3 p-3">
+                    <div class="card">
+                        <img class="card-image-main"
+                                src="assets/images/dyrektoriya.jpg"
+                                alt="Russian Empire and USSR"/>
+                        <div class="card-body p-0">
+                            <h3 class="card-header p-3">Ukraine under USSR</h3>
+                            <div class="accordion" id="Card4Description">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Card4ShortDescription" aria-expanded="false" aria-controls="Card4ShortDescription">
+                                            Short Description
+                                        </button>
+                                    </h2>
+                                    <div id="Card4ShortDescription" class="accordion-collapse collapse">
+                                        <div class="accordion-body">
+                                            Ukraine faced oppression, famine, and cultural suppression under the Russian Empire and USSR.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Understand the struggles of Ukrainians under imperial rule.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="ussr.html" class="btn btn-primary w-100">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mx-3 mt-5">
+                <h1 class="text-center fst-italic">References</h1>
+                <hr>
+                <ul>
+                    <li><a href="https://surma.com.ua/622-trypilska-cyvilizaciia.html">Link for the picture of Trypillian people harvesting crops (image 1)</a></li>
+                    <li><a href="http://maydan.drohobych.net/?p=139378">Link for the picture with Kyivan duke baptising the people (image 2)</a></li>
+                    <li><a href="https://uamodna.com/articles/nayvidomishi-kartyny-z-kozakamy/">Link for the picture with cossacks fighting in the Battle of Syni Vody(image 3)</a></li>
+                    <li><a href="https://esu.com.ua/article-24360">Link for the picture of the I Directory of Ukrainian National Republic (image 4)</a></li>
+                </ul>
+            </div>
+        </main>
+        <footer class="d-flex flex-wrap justify-content-between align-items-center p-3 mt-5 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                    <i class="fa-brands fa-html5"></i>
+                </a>
+                <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Company, Inc</span>
+            </div>
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-body-secondary" href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li class="ms-3"><a class="text-body-secondary" href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li class="ms-3"><a class="text-body-secondary" href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            </ul>
+        </footer>
+    </div>
+    <!-- Link bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
