@@ -1,5 +1,5 @@
 @media screen and (max-width: 677px) {
-    main > div {
+    .form-w-control {
         min-width: 100%;
     }
 }
